@@ -1,7 +1,9 @@
 # VaiNaWeb
 
 📌 Desafio 01 - Uma mini wiki 
+
 📌 Desafio 02- Prime Video
+
 📌 Desafio 03 - Ritmo da batida
 - Projeto em execução: https://vai-na-web-ritmo-da-batida.vercel.app/
 
