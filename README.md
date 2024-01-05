@@ -3,6 +3,7 @@
 📌 Desafio 01 - Uma mini wiki 
 
 📌 Desafio 02- Prime Video
+- Projeto em execução: https://vai-na-web-prime-video.netlify.app/
 - Projeto idealizado no Figma: https://imgur.com/ji7r7gc
 <!--![PrimeVideo](https://i.imgur.com/ji7r7gc.png)-->
 
