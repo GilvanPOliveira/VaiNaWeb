@@ -1,6 +1,7 @@
 # VaiNaWeb
 
 📌 Desafio 01 - Uma mini wiki 
+- Projeto em execução: https://vai-na-web-mini-wiki.netlify.app/
 
 📌 Desafio 02- Prime Video
 - Projeto em execução: https://vai-na-web-prime-video.netlify.app/
