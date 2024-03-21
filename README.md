@@ -24,7 +24,7 @@
 <!--![SelfCare](https://i.imgur.com/Jgd360Y.png)-->
 
 📌 Desafio 02 - Criando um Projeto em React
-- Projeto em execução: https://gilvan.vercel.app/
+- Projeto em execução: https://vai-na-web-projeto-react.vercel.app/
 
 📌 Desafio 03 - Cópia da página inicial do McDonald's
-- Projeto em execução: 
+- Projeto em execução: https://vai-na-web-projeto-mc-donalds.vercel.app/
