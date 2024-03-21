@@ -1,6 +1,6 @@
 📌 Desafio 03 - Cópia do site McDonald's(McFome)
 
-- Projeto em execução: https://mcfome.netlify.app/
+- Projeto em execução: https://vai-na-web-projeto-mc-donalds.vercel.app/
 
 👋 Olá, queridos devs!
 
