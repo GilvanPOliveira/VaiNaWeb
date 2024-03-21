@@ -1,0 +1,429 @@
+body,
+h1,
+h2,
+p,
+ul,
+li,
+span,
+a {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  /* respeita o width e padding */
+}
+
+/* Faça uma doação */
+.header-bg {
+  background: #ffe9e8;
+}
+.header {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 126px;
+  align-items: center;
+  height: 560px;
+}
+.container h2 {
+  font: 500 1.5em "Archivo", Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  color: #121214;
+  cursor: pointer;
+}
+.container h2::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 38px;
+  background: url("./img/Frame.svg") no-repeat;
+  position: relative;
+  margin-right: 8px;
+  top: 10px;
+}
+.container h1 {
+  font: 600 2.5em/1.25 "Archivo", Arial, Helvetica, sans-serif;
+  color: #121214;
+  margin-bottom: 24px;
+}
+.container span {
+  color: #cd3c32;
+}
+.container p {
+  color: #121214;
+  font: 400 1.45rem/1.5 "Archivo", Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+.container p + a {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #cd3c32;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #ffe9e8;
+  font: 700 1em/1 "Roboto", Arial, Helvetica, sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 1200px) {
+  .header {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 48px;
+    height: auto;
+  }
+}
+@media (max-width: 700px) {
+  .container h1 {
+    font: 600 1.5em/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+  }
+  .container p {
+    font: 400 1rem/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+  .header-img img {
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .header {
+    padding: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    padding: 4px;
+    margin-left: 6px;
+    margin-top: 12px;
+    gap: 32px;
+  }
+  .header-img {
+    display: flex;
+   justify-content: center;
+  }
+  .header-img img {
+    width: 180px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .container h1 {
+    text-align: start;
+    padding: 4px;
+  }
+  .container h1 br {
+    display: none;
+  }
+  .container p br {
+    display: none;
+  }
+  .container p {
+    text-align: start;
+    padding: 4px;
+  }
+  .container a {
+    text-align: start;
+    display: inline-block;
+    padding: 8px 8px;
+  }
+  .container h2 {
+    text-align: start;
+    padding: 8px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Cronômetro */
+.cronometro-bg {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.cronometro h1 {
+  font: 600 2.5em/1.25 "Archivo", Arial, Helvetica, sans-serif;
+  color: #121214;
+  margin-bottom: 24px;
+}
+.cronometro p {
+  color: #121214;
+  font: 400 1.45rem/1.5 "Archivo", Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+.cronometro span {
+  font: 600 4em/2 "Archivo", Arial, Helvetica, sans-serif;
+  color: #cd3c32;
+}
+.cronometro-img {
+  margin-top: 40px;
+}
+@media (max-width: 700px) {
+  .cronometro h1 {
+    font: 600 1.5em/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+  }
+  .cronometro p {
+    font: 400 1rem/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+  .cronometro span {
+    font: 600 3em/2 "Archivo", Arial, Helvetica, sans-serif;
+  }
+  .cronometro-img img {
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .cronometro-bg {
+    padding: 4px;
+    margin-left: 6px;
+    gap: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .cronometro-img img {
+    width: 180px;
+  }
+  .cronometro h1 {
+    text-align: start;
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+  .cronometro p {
+    text-align: start;
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+  .cronometro span {
+    font: 600 1em/1 "Archivo", Arial, Helvetica, sans-serif;
+    text-align: start;
+  }
+  .cronometro p br {
+    display: none;
+  }
+}
+
+/* Doação */
+.doacao-container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 120px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.doacao h1 {
+  font: 600 2.5em/1.25 "Archivo", Arial, Helvetica, sans-serif;
+  color: #121214;
+  margin-bottom: 24px;
+  text-align: start;
+}
+.doacao p {
+  color: #121214;
+  font: 400 1.45rem/1.5 "Archivo", Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  text-align: start;
+}
+.doacao-btn a {
+  display: inline-block;
+  padding: 14px 32px;
+  background: #cd3c32;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #ffe9e8;
+  font: 700 1em/1 "Roboto", Arial, Helvetica, sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+}
+.doacao-btn {
+  display: flex;
+  align-items: start;
+}
+@media (max-width: 1200px) {
+  .doacao-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .doacao h1 {
+    text-align: center;
+  }
+  .doacao p {
+    text-align: center;
+  }
+  .doacao-btn {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 700px) {
+  .doacao h1 {
+    font: 600 1.5em/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 24px;
+  }
+  .doacao p {
+    font: 400 1rem/1 "Archivo", Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+  }
+  .doacao-img img {
+    width: 350px;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    margin-top: -10px;
+  }
+  .doacao-container {
+    padding: 4px;
+    margin-left: 6px;
+    gap: 5px;
+    margin-top: 40px;
+  }
+  .doacao-img img {
+    width: 180px;
+    margin-bottom: 40px;
+  }
+  .doacao h1 {
+    text-align: start;
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+  .doacao h1 br {
+    display: none;
+  }
+  .doacao p br {
+    display: none;
+  }
+  .doacao p {
+    text-align: start;
+    padding: 4px;
+    margin-bottom: 40px;
+  }
+  .doacao a {
+    text-align: start;
+    display: inline-block;
+  }
+  .doacao h2 {
+    text-align: start;
+    padding: 6px;
+    margin-bottom: 24px;
+  }
+}
+
+/* Footer */
+.footer-bg {
+  background: #ffe9e8;
+  height: 80px;
+  width: 100%;
+  margin-top: 80px;
+}
+.footer {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer h2 {
+  font: 500 1.5em "Archivo", Arial, Helvetica, sans-serif;
+  color: #121214;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.footer h2::before {
+  content: "";
+  display: flex;
+  width: 35px;
+  height: 38px;
+  background: url("./img/Frame.svg") no-repeat;
+  position: relative;
+  margin-right: 8px;
+}
+.footer-redes {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+.copy {
+  background: #ffe9e8;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+.copy a {
+  color: #000;
+}
+.copy p {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 1200px) {
+  .footer-bg {
+    height: auto;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .footer-redes {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 700px) {
+  .footer {
+    max-width: 500px;
+  }
+  .footer-redes {
+    gap: 16px;
+  }
+}
+@media (max-width: 400px) {
+  .footer-bg {
+    bottom: 0;
+  }
+  .doacao-btn a {
+    text-align: center;
+    padding: 8px 8px;
+  }
+  .container .doacao-btn {
+    text-align: center;
+    padding: 8px 8px;
+  }
+}
