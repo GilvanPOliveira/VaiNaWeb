@@ -1,4 +1,4 @@
-📌 Desafio 03 - Cópia do site McDonald's(McFome)
+📌 Desafio 03 - Cópia do site McDonald's(McFome3)
 
 - Projeto em execução: https://vai-na-web-projeto-mc-donalds.vercel.app/
 
