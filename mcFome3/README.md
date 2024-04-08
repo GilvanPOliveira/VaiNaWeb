@@ -1,7 +1,5 @@
-📌 Desafio 03 - Cópia do site McDonald's(McFome3)
-
 # Réplica da página inicial do McDonald's
-Este projeto é uma réplica da página inicial do McDonald's, desenvolvida para fins de aprendizado e prática em HTML, CSS, React, Styled-Components, React-Router e JavaScript. A réplica incluirá elementos como o menu de navegação, imagens de produtos, informações promocionais e qualquer outro elemento relevante presente na página inicial do site oficial do McDonald's.
+Este projeto é uma réplica da página inicial do McDonald's, desenvolvida para fins de aprendizado e prática em HTML, CSS, React, Styled-Components, React-Router, vite.js e JavaScript. A réplica incluirá elementos como o menu de navegação, imagens de produtos, informações promocionais e qualquer outro elemento relevante presente na página inicial do site oficial do McDonald's.
 
 ## Instalação
 Para usar este projeto, basta clonar o repositório do GitHub:
