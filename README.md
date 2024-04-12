@@ -27,4 +27,4 @@
 - Projeto em execução: https://vai-na-web-projeto-react.vercel.app/
 
 📌 Desafio 03 - Cópia da página inicial do McDonald's
-- Projeto em execução: https://vai-na-web-projeto-mc-donalds.vercel.app/
+- Projeto em execução: https://vai-na-web-mc-donalds.vercel.app/
