@@ -48,11 +48,11 @@ export const HeaderDownload = styled.div`
   cursor: pointer;
 `;
 export const HeaderAppIcon = styled.div`
-  background-image: url(${app_Icon2});
+  background-image: url(${app_Celular});
   background-repeat: no-repeat;
   background-size: cover;
-  width: 29px;
-  height: 30px;
+  width: 26px;
+  height: 32px;
   @media (max-width: 240px) {
     display: none;
   }
