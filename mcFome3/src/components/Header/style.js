@@ -48,7 +48,7 @@ export const HeaderDownload = styled.div`
   cursor: pointer;
 `;
 export const HeaderAppIcon = styled.div`
-  background-image: url(${app_Icon3});
+  background-image: url(${app_Icon2});
   background-repeat: no-repeat;
   background-size: cover;
   width: 29px;
