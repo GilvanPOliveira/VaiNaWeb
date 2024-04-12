@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import logo from "../../assets/Logo.svg";
 import app_Icon from "../../assets/App_Icon.svg";
+import app_Icon2 from "../../assets/app.png";
+import app_Icon3 from "../../assets/app.svg";
 import app_Celular from "../../assets/App_Celular.svg";
 
 export const HeaderBg = styled.header`
@@ -46,7 +48,7 @@ export const HeaderDownload = styled.div`
   cursor: pointer;
 `;
 export const HeaderAppIcon = styled.div`
-  background-image: url(${app_Icon});
+  background-image: url(${app_Icon3});
   background-repeat: no-repeat;
   background-size: cover;
   width: 29px;
