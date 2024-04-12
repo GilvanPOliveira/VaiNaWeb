@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import logo from "../../assets/Logo.svg";
-import app_Icon from "../../assets/app.png";
+import app_Icon from "../../assets/App_Icon.png";
 import app_Celular from "../../assets/App_Celular.svg";
 
 export const HeaderBg = styled.header`
