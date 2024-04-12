@@ -46,12 +46,11 @@ export const HeaderDownload = styled.div`
   cursor: pointer;
 `;
 export const HeaderAppIcon = styled.div`
-  background-image: url(${app_Icon});
+  background-image: url(${app_Celular});
   background-repeat: no-repeat;
   background-size: cover;
   width: 32px;
   height: 32px;
-  align-items: center;
   @media (max-width: 240px) {
     display: none;
   }
@@ -78,8 +77,8 @@ export const HeaderEncomendaApp = styled.div`
   background-image: url(${app_Celular});
   background-repeat: no-repeat;
   background-size: cover;
-  width: 30px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   @media (max-width: 240px) {
     display: none;
   }
