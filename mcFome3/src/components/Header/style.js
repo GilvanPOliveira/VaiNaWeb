@@ -48,9 +48,10 @@ export const HeaderDownload = styled.div`
 export const HeaderAppIcon = styled.div`
   background-image: url(${app_Icon});
   background-repeat: no-repeat;
-  background-size: cover;    
-  width: 32px;
-  height: 32px;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  align-items: center;
   @media (max-width: 240px) {
     display: none;
   }
