@@ -4,7 +4,7 @@
 - Projeto em execução: https://vai-na-web-projeto-mini-wiki.netlify.app/
 
 📌 Desafio 02- Prime Video
-- Projeto em execução: https://vai-na-web-projeto-mini-wiki.netlify.app/
+- Projeto em execução: https://vai-na-web-projeto-prime-video.netlify.app/
 - Projeto idealizado no Figma: https://imgur.com/ji7r7gc
 <!--![PrimeVideo](https://i.imgur.com/ji7r7gc.png)-->
 
