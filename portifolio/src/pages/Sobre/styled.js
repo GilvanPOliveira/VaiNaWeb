@@ -4,6 +4,11 @@ export const MainBg = styled.div`
   display: flex;
   text-align: center;
   background-color: #839697;
+  @media (max-width: 968px) {
+    margin-top: 16vh;
+    height: 100vh;
+    align-items: flex-start;
+  }
 `;
 
 export const Main = styled.div`
@@ -15,6 +20,7 @@ export const Main = styled.div`
   padding: 32px;
   @media (max-width: 555px) {
     padding: 12px;
+    gap: 32px;
   }
 `;
 
@@ -29,6 +35,11 @@ export const Texto = styled.div`
   p {
     font-size: clamp(1rem, 0.6774rem + 2.5806vw, 3rem);
     color: white;
+  }
+  @media (max-width: 555px) {
+    p {
+      text-align: justify;
+    }
   }
 `;
 
@@ -56,8 +67,16 @@ export const Skills = styled.div`
   @media (max-width: 555px) {
     gap: 32px;
     img {
-    width: 50px;
-    height: 50px;
+      width: 50px;
+      height: 50px;
+    }
   }
+  @media (max-width: 300px) {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 70px;
+      height: 70px;
+    }
   }
 `;

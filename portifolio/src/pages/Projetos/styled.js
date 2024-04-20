@@ -4,6 +4,11 @@ export const MainBg = styled.div`
   display: flex;
   text-align: center;
   background-color: #839697;
+  @media (max-width: 968px) {
+    width: 100%;
+    margin-top: 16vh;
+    height: 100vh;
+  }
 `;
 
 export const Main = styled.div`
@@ -12,20 +17,26 @@ export const Main = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 32px;
   h2 {
     font-size: clamp(1rem, 0.6774rem + 2.5806vw, 3rem);
     width: 800px;
     color: white;
     margin-bottom: 32px;
   }
+  @media (max-width: 968px) {
+    justify-content: flex-start;
+    padding: 24px;
+  }
 `;
 
 export const Projetos = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 32px;
+  width: 900px;
+  @media (max-width: 1200px) {
+    max-width: 590px;
+  }
+  @media (max-width: 768px) {
+    max-width: 300px;
+  }
 `;
 
 export const ProjetosItem = styled.div`
@@ -39,6 +50,9 @@ export const ProjetosItem = styled.div`
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 32px;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;
 
 export const ProjetosImg = styled.div`

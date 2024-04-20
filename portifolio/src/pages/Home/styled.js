@@ -6,39 +6,39 @@ export const MainBg = styled.div`
   align-items: center;
   text-align: center;
   background-color: #839697;
+  @media (max-width: 968px) {
+    margin-top: 16vh;
+    height: 100vh;
+  }
   @media (max-width: 755px) {
     align-items: flex-start;
   }
 `;
 
 export const Main = styled.div`
-  padding: 64px;
+  padding: 0 32px 0 32px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 20px;
   width: 100%;
-  gap: 32px;
   img {
     width: 350px;
     border-radius: 50%;
   }
   @media (max-width: 1000px) {
-    img {
-      width: 150px;
-    }
+      flex-direction: column-reverse;
+      gap: 32px;
   }
   @media (max-width: 755px) {
-    flex-direction: column;
-  }
-  @media (max-width: 555px) {
-    padding: 32px;
+    margin-top: 20px;
+    img {
+      width: 200px;
+    }
   }
   @media (max-width: 455px) {
     img {
       width: 100px;
     }
-    padding: 0;
+    padding: 12px;
   }
 `;
 
@@ -50,12 +50,10 @@ export const Texto = styled.div`
   gap: 32px;
   h1 {
     font-size: clamp(1rem, 0.6774rem + 2.5806vw, 3rem);
-    width: 100%;
     color: white;
   }
   p {
     font-size: clamp(1rem, 0.6774rem + 2.5806vw, 3rem);
-    width: 100%;
     color: white;
   }
   @media (max-width: 455px) {
