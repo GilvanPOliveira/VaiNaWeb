@@ -7,7 +7,7 @@ import { GlobalStyle } from "./styles/GlobalStyles";
 export default function App() {
   return (
     <>
-      <GlobalStyle />
+      <GlobalStyle  />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

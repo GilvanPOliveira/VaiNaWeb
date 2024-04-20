@@ -54,10 +54,10 @@ export const Menu = styled.nav`
 `;
 
 export const MenuItem = styled.li`
-  border-bottom: solid 1px white;
+  border-bottom: solid  1px white;
   padding: 24px 0 24px 0;
   a {
-    color: white;
+    color: white ;
   }
   @media (max-width: 968px) {
     border-bottom: none;

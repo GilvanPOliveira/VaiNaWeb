@@ -17,7 +17,7 @@ export default function Sobre() {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              Lore m ipsum dolor sit amet consectetur adipisicing elit. Maiores
               suscipit incidunt distinctio optio velit sapiente modi, nemo eaque
               temporibus aliquid cum ea quod laboriosam deserunt voluptatum
               corrupti vitae delectus voluptate?

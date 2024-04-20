@@ -12,7 +12,7 @@ export default function Menu() {
       <S.Perfil>
         <img src={perfil} alt="Perfil" />
         <S.Nome>Gilvan Oliveira</S.Nome>
-        <S.Cargo>Front-End Developer</S.Cargo>
+        <S.Cargo> Front-End Developer</S.Cargo>
       </S.Perfil>
 
       <S.Menu>
@@ -22,8 +22,8 @@ export default function Menu() {
           </S.MenuItem>
           <S.MenuItem>
             <Link to="/sobre">Sobre Mim</Link>
-          </S.MenuItem>
-          <S.MenuItem>
+          </S.MenuItem >
+          <S.MenuItem> 
             <Link to="/projetos">Projetos</Link>
           </S.MenuItem>
         </ul>

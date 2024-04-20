@@ -9,12 +9,12 @@ export default function Home() {
       <S.Main>
         <S.Texto>
           <div>
-            <h1> Olá, meu nome é Gilvan Oliveira sou dev Front-End</h1>
+            <h1> Olá, meu nome é Gilvan Oliveira sou dev Front-End </h1>
           </div>
           <div>
             <p>
               Não é a linguagem de programação que define o programador, mas sim
-              sua lógica.
+              sua lógica. 
             </p>
           </div>
         </S.Texto>

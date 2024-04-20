@@ -15,7 +15,7 @@ export default function Sobre() {
     <S.MainBg>
       <Menu />
       <S.Main>
-        <h2>Projetos</h2>
+        <h2>Projetos </h2>
         <S.Projetos>
           <Carousel
             cols={3}

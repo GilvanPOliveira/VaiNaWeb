@@ -64,7 +64,7 @@ export const Skills = styled.div`
   @media (max-width: 1000px) {
     flex-wrap: wrap;
   }
-  @media (max-width: 555px) {
+  @media (max-width:  555px) {
     gap: 32px;
     img {
       width: 50px;

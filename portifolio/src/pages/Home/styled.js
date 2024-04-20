@@ -10,14 +10,14 @@ export const MainBg = styled.div`
     margin-top: 16vh;
     height: 100vh;
   }
-  @media (max-width: 755px) {
+  @media (max-width: 755px ) {
     align-items: flex-start;
   }
 `;
 
 export const Main = styled.div`
   padding: 0 32px 0 32px;
-  display: flex;
+  display: flex ;
   align-items: center;
   width: 100%;
   img {

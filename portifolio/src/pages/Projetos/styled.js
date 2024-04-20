@@ -50,7 +50,7 @@ export const ProjetosItem = styled.div`
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 32px;
-  @media (max-width: 800px) {
+  @media (max-width:  800px) {
     width: 100%;
   }
 `;
@@ -67,7 +67,7 @@ export const ProjetosDescricao = styled.div`
   overflow-y: auto;
   max-height: 100px;
   p {
-    font-size: clamp(0.5rem, 0.4194rem + 0.6452vw, 1rem);
+    font-size: clamp( 0.5rem, 0.4194rem + 0.6452vw, 1rem);
     text-align: justify;
     color: white;
     padding: 0 12px 0 12px;
