@@ -7,6 +7,6 @@ import { GlobalStyles } from "./styles/GlobalStyle";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={Router} />
-    <GlobalStyles />
+    <GlobalStyles/>
   </React.StrictMode>
 );
