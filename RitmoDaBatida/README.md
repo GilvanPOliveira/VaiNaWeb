@@ -1,7 +1,13 @@
 # VaiNaWeb
-
 📌 Desafio 03 - Ritmo da batida
 
+## Projeto
+- Beat, site de música, onde a proposta do desafio era criar um site com outras páginas integradas, novas estilizações, responsividade e organização do código, utilizando apenas HTML e CSS.
+
+## Projeto em execução
+- https://vai-na-web-projeto-beat.netlify.app/
+
+## Estrutura do Projeto
 Fala Devssss!!!🚀🚀
 
 - Chegamos ao nosso terceiro desafio técnico!!!!😁 
