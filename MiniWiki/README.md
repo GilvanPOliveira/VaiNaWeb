@@ -1,4 +1,4 @@
-****# VaiNaWeb
+# VaiNaWeb
 
 📌 Desafio 01 - Uma mini wiki 
 
