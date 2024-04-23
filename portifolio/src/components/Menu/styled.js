@@ -6,10 +6,10 @@ export const MenuBg = styled.div`
   height: 100vh;
   @media (max-width: 768px) {
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 0;
-    height: 23vh;
+    height: 16vh;
   }
 `;
 

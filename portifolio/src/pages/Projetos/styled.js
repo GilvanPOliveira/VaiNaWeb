@@ -8,7 +8,7 @@ export const MainBg = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    margin-top: 23vh;
+    margin-top: 16vh;
     align-items: flex-start;
   }
 `;

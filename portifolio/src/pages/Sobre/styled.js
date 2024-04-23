@@ -4,7 +4,7 @@ export const MainBg = styled.div`
   display: flex;
   text-align: center;
   background-color: #839697;
-  height: 100%;
+  height: 100vh;
   @media (max-width: 968px) {
     align-items: flex-start;
   }
@@ -18,7 +18,7 @@ export const Main = styled.div`
   width: 100%;
   padding: 32px;
   @media (max-width: 968px) {
-    margin-top: 20vh;
+    margin-top: 17vh;
   }
   @media (max-width: 555px) {
     padding: 12px;

@@ -25,10 +25,8 @@ export const Main = styled.div`
     flex-direction: column-reverse;
     gap: 32px;
   }
-  @media (max-width: 968px) {
-    margin-top: 24vh;
-  }
-  @media (max-width: 755px) {
+  @media (max-width: 768px) {
+    margin-top: 18vh;
     img {
       width: 200px;
     }
