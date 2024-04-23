@@ -1,13 +1,13 @@
 # VaiNaWeb
 📌 Desafio Final - Portifólio
 
-## Projeto ##
+## Projeto 
 - Modelo de portifólio pessoal, para divulgar minhas habilidades e projetos criados durante o curso.
 
-## Projeto em execução ##
+## Projeto em Execução
 - https://vai-na-web-portifolio.vercel.app/
 
-## Estrutura do Projeto ##
+## Estrutura do Projeto 
 Oláaa, Devss!!! 😄🎉
 
 Parabéns a todos que chegaram até aqui com tanta garra e determinação!!! 🌟
