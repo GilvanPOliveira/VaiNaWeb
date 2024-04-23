@@ -19,8 +19,7 @@ export default function Sobre() {
             <p>
               Lore m ipsum dolor sit amet consectetur adipisicing elit. Maiores
               suscipit incidunt distinctio optio velit sapiente modi, nemo eaque
-              temporibus aliquid cum ea quod laboriosam deserunt voluptatum
-              corrupti vitae delectus voluptate?
+              temporibus aliquid cum ea quod laboriosam deserunt voluptatum corrupti vitae delectus voluptate?
             </p>
           </div>
         </S.Texto>

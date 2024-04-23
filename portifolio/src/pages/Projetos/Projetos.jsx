@@ -9,7 +9,8 @@ export default function Projetos() {
       <S.Main>
         <h2>Projetos </h2>
         <S.Projetos>
-          <PortifolioCarousel />
+
+          <PortifolioCarousel/>
         </S.Projetos>
       </S.Main> 
     </S.MainBg>

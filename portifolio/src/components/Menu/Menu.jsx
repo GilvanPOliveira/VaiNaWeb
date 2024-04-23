@@ -10,7 +10,7 @@ export default function Menu() {
     <S.MenuBg>
 
       <S.Perfil>
-        <img src={perfil} alt="Perfil" />
+        <img src={perfil} alt="Perfil"/>
         <S.Nome>Gilvan Oliveira</S.Nome>
         <S.Cargo> Front-End Developer</S.Cargo>
       </S.Perfil>

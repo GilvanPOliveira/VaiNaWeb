@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjetosBG = styled.div`
   display: flex;
   padding: 0 32px 0 32px;
-  @media (max-width: 768px) {
+  @media (max-width:  768px) {
     padding: 0 0 24px 12px;
   }
   @media (max-width: 368px) {

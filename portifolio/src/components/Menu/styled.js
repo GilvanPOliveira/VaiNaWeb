@@ -21,6 +21,7 @@ export const Perfil = styled.div`
   padding: 32px 0 24px 0;
   img {
     width: 100px;
+    
     border-radius: 50%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   }

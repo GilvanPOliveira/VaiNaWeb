@@ -6,7 +6,6 @@ export const MainBg = styled.div`
   background-color: #839697;
   height: 100vh;
   align-items: center;
-
   @media (max-width: 768px) {
     margin-top: 16vh;
     align-items: flex-start;

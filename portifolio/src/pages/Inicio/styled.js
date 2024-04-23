@@ -9,6 +9,7 @@ export const MainBg = styled.div`
   height: 100vh;
   @media (max-width: 755px ) {
     align-items: flex-start;
+
   }
 `;
 

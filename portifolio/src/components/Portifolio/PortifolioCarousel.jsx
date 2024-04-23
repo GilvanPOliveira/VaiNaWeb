@@ -59,20 +59,22 @@ const PortifolioCarousel = () => {
       },
     ],
   };
-
+  
   return (
     <Slider {...settings}>
       {projetos.map((projeto) => (
-        <S.ProjetosBG>
-          <S.ProjetosItem key={projeto.id}>
-            <S.ProjetosImg>
-              <img src={projeto.image} alt={projeto.title} />
-            </S.ProjetosImg>
-            <S.ProjetosDescricao>
-              <h3>{projeto.title}</h3>
-              <p>{projeto.description}</p>
-            </S.ProjetosDescricao>
-          </S.ProjetosItem>
+        <S.ProjetosBG key={projeto.id}>
+          <Link to={projeto.link} style={{ textDecoration: "none", color: "inherit" }}>
+            <S.ProjetosItem>
+              <S.ProjetosImg>
+                <img src={projeto.image} alt={projeto.title} />
+              </S.ProjetosImg>
+              <S.ProjetosDescricao>
+                <h3>{projeto.title}</h3>
+                <p>{projeto.description}</p>
+              </S.ProjetosDescricao>
+            </S.ProjetosItem>
+          </Link>
         </S.ProjetosBG>
       ))}
     </Slider>
