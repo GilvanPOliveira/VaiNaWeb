@@ -68,7 +68,21 @@ const PortifolioCarousel = () => {
           <S.ProjetosItem>
             <S.ProjetosImg>
               <img src={projeto.image} alt={projeto.title} />
-              <Link to={projeto.link}>
+              <Link
+                to={projeto.link}
+                onClick={(e) => {
+                  e.preventDefault();
+                  const width = 600;
+                  const height = 400;
+                  const left = (window.screen.width - width) / 2;
+                  const top = (window.screen.height - height) / 2;
+                  window.open(
+                    projeto.link,
+                    "popup",
+                    `width=${width},height=${height},left=${left},top=${top}`
+                  );
+                }}
+              >
                 <div className="image-overlay">
                   <span className="imgTitle">{projeto.title}</span>
                 </div>
