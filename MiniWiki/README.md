@@ -1,7 +1,14 @@
-# VaiNaWeb
+****# VaiNaWeb
 
 📌 Desafio 01 - Uma mini wiki 
 
+# Projeto #
+- Um breve resumo sobre mim, onde a proposta do desafio era criar um site com informações sobre mim, utilizando apenas HTML, e compartilhar com a turma para nos conhecermos melhor.
+
+## Projeto em execução ##
+- https://vai-na-web-projeto-mini-wiki.netlify.app/
+
+## Estrutura do Projeto ##
 Agora que você já sabe como estruturar uma página, vamos nos conhecer um pouco?
 
 Praticando HTML, é claro!!! 🤓
