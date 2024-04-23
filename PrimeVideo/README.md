@@ -2,6 +2,14 @@
 
 📌 Desafio 02- Prime Video
 
+# Projeto
+- Clone da interface do Prime Video, onde a proposta do desafio era criar um site com a interface do Prime Video, utilizando apenas HTML e CSS, iniciando a utilização da responsividade.
+
+## Projeto em execução
+- https://vai-na-web-projeto-prime-video.netlify.app/
+
+## Estrutura do Projeto
+
 Olá, desenvolvedores!!!! 🚀🚀 🚀 
 
 OBSERVAÇÕES:- Resolva uma linha por vez com bastante calma e cuidado. Confie no processo! 🤓
