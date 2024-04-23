@@ -1,13 +1,13 @@
 # Vai na Web
 📌 Desafio 02 - Criando um Projeto em React
 
-##Projeto
+## Projeto
 - Site criado para treinar a introdução ao JavaScript e React, trazendo todo conhecimento até então para essa nova linguagem e framework, utilizando HTML, CSS, JavaScript e React.
 
-##Projeto em Execução
+## Projeto em Execução
 - https://vai-na-web-projeto-react.vercel.app/
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 Fala Devssss!!!🚀🚀
 
 - Chegamos ao nosso Segundo desafio técnico do módulo 2!!!!😁
