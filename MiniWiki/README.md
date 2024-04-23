@@ -2,7 +2,7 @@
 
 📌 Desafio 01 - Uma mini wiki 
 
-# Projeto #
+## Projeto ##
 - Um breve resumo sobre mim, onde a proposta do desafio era criar um site com informações sobre mim, utilizando apenas HTML, e compartilhar com a turma para nos conhecermos melhor.
 
 ## Projeto em execução ##
