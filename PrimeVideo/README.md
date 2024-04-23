@@ -2,7 +2,7 @@
 
 📌 Desafio 02- Prime Video
 
-# Projeto
+## Projeto
 - Clone da interface do Prime Video, onde a proposta do desafio era criar um site com a interface do Prime Video, utilizando apenas HTML e CSS, iniciando a utilização da responsividade.
 
 ## Projeto em execução
