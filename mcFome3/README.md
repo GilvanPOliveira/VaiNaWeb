@@ -1,39 +1,26 @@
-# Réplica da página inicial do McDonald's
-Este projeto é uma réplica da página inicial do McDonald's, desenvolvida para fins de aprendizado e prática em HTML, CSS, React, Styled-Components, React-Router, vite.js e JavaScript. A réplica incluirá elementos como o menu de navegação, imagens de produtos, informações promocionais e qualquer outro elemento relevante presente na página inicial do site oficial do McDonald's.
+# VaiNaWeb
+📌 Desafio 03 - McDonald's
 
-## Instalação
-Para usar este projeto, basta clonar o repositório do GitHub:
+## Projeto
+- Clone da interface do McDonald's, onde a proposta do desafio era criar um site com a interface do McDonald's, utilizando apenas HTML, CSS, JavaScript e React, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
 
-git clone https://github.com/GilvanPOliveira/VaiNaWeb.git
+## Projeto em execução 
+- https://vai-na-web-mc-donalds.vercel.app/
 
-## Uso
-Após clonar o repositório, abra o pasta mcfome3 em seu vscode, através do comando:
+## Estrutura do Projeto
+👋 Olá, queridos devs!
 
-cd mcfome3 
+ℹ Dicas Importantes:
 
-Após selecionar a pasta do projeto, execute os seguintes comandos:
+O layout do projeto está disponível no Figma logo abaixo para ajudar.
+Não esqueça de tornar os produtos clicáveis para uma experiência interativa.
+Gerencie bem o seu tempo para que você consiga entregar tudo dentro do prazo combinado.
+Não hesite em interagir com seus colegas e usar o grupo para compartilhar dúvidas e ideias.
 
-npm install
-npm run dev
+⏰ Prazo de Entrega:
+Lembre-se de ficar de olho no prazo de entrega dos exercícios. Estamos aqui para te ajudar, então não hesite em nos contatar se precisar de alguma coisa.
 
-Para visualizar a réplica da página inicial do McDonald's.
+🤝 Colaboração e Interatividade:
+Juntos somos mais fortes! Vamos colaborar, compartilhar conhecimento e ajudar uns aos outros. Afinal, é assim que crescemos como uma comunidade.
 
-## Contribuição
-Contribuições são bem-vindas! Por favor, abra uma issue para discutir grandes alterações antes de enviar um pull request. Certifique-se de seguir o código de conduta do projeto.
-
-## Status do Projeto
-O projeto está finalizado.
-- Projeto em execução: https://vai-na-web-projeto-mc-donalds.vercel.app/
-
-## Autor
-Gilvan Oliveira
-
-## Contato
-Para mais informações ou para colaborar, entre em contato pelo email: gilvanoliveira06@gmail.com
-
-
-
-
-
-
-
+🚀 Estamos prontos para decolar! Mal posso esperar para ver as suas criações. Seja criativo, divirta-se e aproveite ao máximo essa jornada de aprendizado! 🍔🍟🍦
