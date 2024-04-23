@@ -1,5 +1,5 @@
 # VaiNaWeb
-📌 Projeto de Natal 🎅
+📌 Projeto Natalino 🎅
 
 ## Projeto
 - Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a doações, utilizando apenas HTML e CSS, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
