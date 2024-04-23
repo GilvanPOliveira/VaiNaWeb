@@ -1,6 +1,13 @@
 # VaiNaWeb
+📌 Projeto de Natal 🎅
 
-Projeto de Natal 🎅
+#Projeto
+- Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a doações, utilizando apenas HTML e CSS, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
+
+#Projeto em Execução
+- https://vai-na-web-projeto-natal.netlify.app/
+
+#Estrutura do Projeto
 
 Oláa devs! 🌟 Como estão??    
 
