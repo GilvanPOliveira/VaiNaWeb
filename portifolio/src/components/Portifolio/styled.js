@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjetosBG = styled.div`
   display: flex;
   padding: 0 32px 0 32px;
-  @media (max-width:  768px) {
+  @media (max-width: 768px) {
     padding: 0 0 24px 12px;
   }
   @media (max-width: 368px) {
@@ -15,7 +15,7 @@ export const ProjetosBG = styled.div`
 export const ProjetosItem = styled.div`
   background-color: #4a5051;
   max-width: 130px;
-  border-radius: 20px; 
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 16px;
   @media (max-width: 768px) {
@@ -24,10 +24,41 @@ export const ProjetosItem = styled.div`
 `;
 
 export const ProjetosImg = styled.div`
- img {
+  img {
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease;
+  }
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+  }
+
+  .image-overlay:hover {
+    opacity: 1;
+  }
+
+  .image-title {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    transition: opacity 0.3s ease;
   }
 `;
 

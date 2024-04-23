@@ -6,6 +6,7 @@ import projetos from "./Portifolio";
 import setaEsquerda from "../../assets/setaEsquerda.svg";
 import setaDireita from "../../assets/setaDireita.svg";
 import * as S from "./styled";
+import { Link } from "react-router-dom";
 
 const PortifolioCarousel = () => {
   const settings = {
@@ -59,22 +60,25 @@ const PortifolioCarousel = () => {
       },
     ],
   };
-  
+
   return (
     <Slider {...settings}>
       {projetos.map((projeto) => (
         <S.ProjetosBG key={projeto.id}>
-          <Link to={projeto.link} style={{ textDecoration: "none", color: "inherit" }}>
-            <S.ProjetosItem>
-              <S.ProjetosImg>
-                <img src={projeto.image} alt={projeto.title} />
-              </S.ProjetosImg>
-              <S.ProjetosDescricao>
-                <h3>{projeto.title}</h3>
-                <p>{projeto.description}</p>
-              </S.ProjetosDescricao>
-            </S.ProjetosItem>
-          </Link>
+          <S.ProjetosItem>
+            <S.ProjetosImg>
+              <img src={projeto.image} alt={projeto.title} />
+              <Link to={projeto.link}>
+                <div className="image-overlay">
+                  <span className="imgTitle">{projeto.title}</span>
+                </div>
+              </Link>
+            </S.ProjetosImg>
+            <S.ProjetosDescricao>
+              <h3>{projeto.title}</h3>
+              <p>{projeto.description}</p>
+            </S.ProjetosDescricao>
+          </S.ProjetosItem>
         </S.ProjetosBG>
       ))}
     </Slider>
