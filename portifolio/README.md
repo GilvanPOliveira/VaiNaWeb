@@ -23,4 +23,4 @@ E, é claro, a página precisa ser totalmente responsiva, garantindo uma experi�
 
 Observação: O Figma abaixo é apenas um exemplo para orientá-los durante o desenvolvimento do desafio. Usem a criatividade e coloquem em prática suas ideias! ❤
 
-Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembrem-se, cada passo que vocês dão é uma jornada emocionante de aprendizado e crescimento. Boa sorte e divirtam-se criando!!! 🌈👍
+Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembrem-se, cada passo que vocês dão é uma jornada emocionante de aprendizado e crescimento. Boa sorte e divirtam-se criando!!! 🌈👍 

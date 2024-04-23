@@ -1,2 +1,2 @@
 # Vai na Web
-Estudos iniciais sobre JavaScript
+Estudos iniciais sobre JavaScript.
