@@ -5,11 +5,13 @@ import Logo from "../assets/vnw.svg";
 const Container = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 32px;
+  height: 50vh;
 `;
 
 const Imagem = styled.img`
-  width: 200px;
+  width: 350px;
   height: auto;
 `;
 
