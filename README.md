@@ -41,6 +41,6 @@
 <!--https://i.imgur.com/NcQ16l6.png-->
 
 📌 Desafio Final - Portifólio Colab
-- Projeto em execução: 
+- Projeto em execução: https://portifolio-colab.vercel.app/
 - Projeto idealizado para contribuir na aula
 
