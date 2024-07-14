@@ -1,0 +1,4 @@
+# robots.txt gerado por atozseotools.com
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
