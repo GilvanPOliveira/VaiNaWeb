@@ -1,9 +1,11 @@
 # VaiNaWeb
 
 📌 Desafio 01 - Uma mini wiki 
-- [Projeto em execução](https://vai-na-web-projeto-mini-wiki.netlify.app/)
-- [Projeto idealizado no Figma](https://imgur.com/0gGw96Q)
-<!--https://i.imgur.com/0gGw96Q.png-->
+
+<a href="https://vai-na-web-projeto-mini-wiki.netlify.app/" target="_blank">Projeto em execução</a>
+<p float="left">
+ <img src="https://i.imgur.com/0gGw96Q.png" width="300" />
+</p>
 
 📌 Desafio 02- Prime Video
 - [Projeto em execução](https://vai-na-web-projeto-prime-video.netlify.app/)
