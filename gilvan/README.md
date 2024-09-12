@@ -22,8 +22,6 @@ Instruções:
 4 - Deve ser feito pelo Visual Studio Code e entregue com o link do repositório do GitHub.
 5 - Se quiser criar uma página fique a vontade.
 
-Projeto em execução: https://vai-na-web-projeto-react.vercel.app/
-
 OBSERVAÇÕES:
 - Faça cada etapa da criação do projeto com bastante calma e cuidado. Confie no processo! 🤓
 - Interajam entre si, usem o grupo. Ajude o colega que ainda não entendeu. Somos uma rede 🧡
