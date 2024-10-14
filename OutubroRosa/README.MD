@@ -6,7 +6,7 @@
 - Criação de um site para a concientização do Outubro Rosa, utilizando HTML  e SASS.
 
 ## Projeto em execução ##
-- 
+- https://vai-na-web-outubro-rosa.vercel.app/
 
 ## Estrutura do Projeto ##
 
