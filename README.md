@@ -1,4 +1,6 @@
-# VaiNaWeb
+# Instituto VaiNaWeb
+
+## Ciclo - FrontEnd
 
 📌 Desafio 01 - Uma mini wiki: <a href="https://vai-na-web-projeto-mini-wiki.netlify.app/">Projeto em execução</a>
 <p float="left">
@@ -49,4 +51,11 @@
 📌 Desafio Final - Portifólio Colab: <a href="https://portifolio-colab.vercel.app/">Projeto em execução</a>
 <p float="left">
  <img src="https://i.imgur.com/1XVnttJ.png" width="300" />
+</p>
+
+## Ciclo - FullStack 
+
+📌 Desafio 02 - Outubro Rosa: <a href="https://vai-na-web-outubro-rosa.vercel.app/">Projeto em execução</a>
+<p float="left">
+ <img src="https://i.imgur.com/vmm328v.png" width="300" />
 </p>
