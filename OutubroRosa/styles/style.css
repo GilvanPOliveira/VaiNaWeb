@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  background-color: #ff69b4;
+  height: 118px;
+  width: 1216px;
+  color: #e4eef1;
+  padding: 0 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo a img {
+  width: 100px;
+  height: 100px;
+}
+header h1 {
+  font-size: 28px;
+  font-weight: 38;
+  color: #e4eef1;
+  text-transform: uppercase;
+  margin: 0 3px;
+  cursor: default;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+header nav ul li a {
+  font-size: 28px;
+  font-weight: 38;
+  color: #e4eef1;
+  text-transform: uppercase;
+}
+
+main {
+  width: 1216px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .secao1 {
+  background-color: #ffd9ec;
+  width: 1216px;
+  height: 377px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .secao1 .texto1 {
+  cursor: default;
+  width: 586px;
+  height: 265px;
+  font-size: 25px;
+  font-weight: 34;
+  line-height: 1.5;
+  color: #000;
+  text-align: justify;
+}
+main .secao1 img {
+  width: 365px;
+  height: 355px;
+}
+main .secao2 {
+  background-color: #ff69b4;
+  width: 1216px;
+  height: 262px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .secao2 .texto2 {
+  cursor: default;
+  width: 648px;
+  height: 174px;
+  font-size: 25px;
+  font-weight: 34;
+  line-height: 1.35;
+  color: #e4eef1;
+  text-align: justify;
+}
+main .secao2 img {
+  width: 421px;
+  height: 234px;
+}
+main .secao3 {
+  background-color: #ffd9ec;
+  width: 1216px;
+  height: 426px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .secao3 img {
+  width: 250px;
+  height: 250px;
+}
+
+footer {
+  background-color: #ff69b4;
+  display: flex;
+  align-content: center;
+}
+footer .rodape {
+  height: 143px;
+  width: 1216px;
+  color: #e4eef1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .rodape .social {
+  display: flex;
+  gap: 27px;
+}
+footer .rodape .social img {
+  width: 48px;
+  height: 48px;
+}
+footer .rodape .dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+footer .rodape .dados a {
+  font-size: 20px;
+  font-weight: 27;
+  line-height: 1.5;
+  color: #e4eef1;
+}
+footer .rodape .emblema img {
+  width: 105px;
+  height: 109px;
+}/*# sourceMappingURL=style.css.map */
