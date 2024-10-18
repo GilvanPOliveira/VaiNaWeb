@@ -26,6 +26,21 @@ header .logo a img {
   width: 100px;
   height: 100px;
 }
+@media (max-width: 600px) {
+  header .logo a img {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media (max-width: 300px) {
+  header .logo {
+    flex-direction: column;
+  }
+  header .logo a img {
+    width: 50px;
+    height: 50px;
+  }
+}
 header h1 {
   font-size: 28px;
   font-weight: 38;
@@ -34,17 +49,57 @@ header h1 {
   margin: 0 3px;
   cursor: default;
 }
-header nav ul {
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  header h1 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 12px 0;
+  }
+}
+
+nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 80px;
 }
-header nav ul li a {
+nav ul li a {
   font-size: 28px;
   font-weight: 38;
   color: #e4eef1;
   text-transform: uppercase;
+}
+@media (max-width: 600px) {
+  nav ul li a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 300px) {
+  nav ul li a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 600px) {
+  nav ul {
+    gap: 40px;
+    margin: 12px 0;
+  }
+}
+@media (max-width: 300px) {
+  nav ul {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 main {
@@ -72,9 +127,40 @@ main .secao1 .texto1 {
   color: #000;
   text-align: justify;
 }
+@media (max-width: 600px) {
+  main .secao1 .texto1 {
+    font-size: 20px;
+    height: auto;
+  }
+}
+@media (max-width: 300px) {
+  main .secao1 .texto1 {
+    font-size: 15px;
+  }
+}
 main .secao1 img {
   width: 365px;
   height: 355px;
+}
+@media (max-width: 600px) {
+  main .secao1 img {
+    width: 325px;
+    height: 315px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao1 img {
+    width: 181px;
+    height: 181px;
+  }
+}
+@media (max-width: 600px) {
+  main .secao1 {
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    height: auto;
+  }
 }
 main .secao2 {
   background-color: #ff69b4;
@@ -94,9 +180,40 @@ main .secao2 .texto2 {
   color: #e4eef1;
   text-align: justify;
 }
+@media (max-width: 600px) {
+  main .secao2 .texto2 {
+    font-size: 20px;
+    height: auto;
+  }
+}
+@media (max-width: 300px) {
+  main .secao2 .texto2 {
+    font-size: 15px;
+  }
+}
 main .secao2 img {
   width: 421px;
   height: 234px;
+}
+@media (max-width: 600px) {
+  main .secao2 img {
+    width: 321px;
+    height: 184px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao2 img {
+    width: 181px;
+    height: 94px;
+  }
+}
+@media (max-width: 600px) {
+  main .secao2 {
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    height: auto;
+  }
 }
 main .secao3 {
   background-color: #ffd9ec;
@@ -109,6 +226,26 @@ main .secao3 {
 main .secao3 img {
   width: 250px;
   height: 250px;
+}
+@media (max-width: 600px) {
+  main .secao3 img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao3 img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 600px) {
+  main .secao3 {
+    flex-direction: column;
+    padding: 12px;
+    gap: 12px;
+    height: auto;
+  }
 }
 
 footer {
@@ -147,4 +284,12 @@ footer .rodape .dados a {
 footer .rodape .emblema img {
   width: 105px;
   height: 109px;
+}
+@media (max-width: 600px) {
+  footer .rodape {
+    flex-direction: column;
+    height: auto;
+    padding: 12px;
+    gap: 12px;
+  }
 }/*# sourceMappingURL=style.css.map */
