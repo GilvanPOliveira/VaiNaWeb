@@ -64,6 +64,17 @@ header h1 {
     flex-direction: column;
     height: auto;
     padding: 12px 0;
+    max-width: 600px;
+  }
+}
+@media (max-width: 300px) {
+  header {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  header {
+    max-width: 200px;
   }
 }
 
@@ -131,10 +142,12 @@ main .secao1 .texto1 {
   main .secao1 .texto1 {
     font-size: 20px;
     height: auto;
+    max-width: 270px;
   }
 }
 @media (max-width: 300px) {
   main .secao1 .texto1 {
+    max-width: 180px;
     font-size: 15px;
   }
 }
@@ -160,6 +173,17 @@ main .secao1 img {
     padding: 12px;
     gap: 12px;
     height: auto;
+    max-width: 600px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao1 {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  main .secao1 {
+    max-width: 200px;
   }
 }
 main .secao2 {
@@ -184,10 +208,12 @@ main .secao2 .texto2 {
   main .secao2 .texto2 {
     font-size: 20px;
     height: auto;
+    max-width: 270px;
   }
 }
 @media (max-width: 300px) {
   main .secao2 .texto2 {
+    max-width: 180px;
     font-size: 15px;
   }
 }
@@ -213,6 +239,17 @@ main .secao2 img {
     padding: 12px;
     gap: 12px;
     height: auto;
+    max-width: 600px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao2 {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  main .secao2 {
+    max-width: 200px;
   }
 }
 main .secao3 {
@@ -245,6 +282,32 @@ main .secao3 img {
     padding: 12px;
     gap: 12px;
     height: auto;
+    max-width: 600px;
+  }
+}
+@media (max-width: 300px) {
+  main .secao3 {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  main .secao3 {
+    max-width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  main {
+    max-width: 600px;
+  }
+}
+@media (max-width: 300px) {
+  main {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  main {
+    max-width: 200px;
   }
 }
 
@@ -254,7 +317,7 @@ footer {
   align-content: center;
 }
 footer .rodape {
-  height: 143px;
+  height: 165px;
   width: 1216px;
   color: #e4eef1;
   display: flex;
@@ -263,17 +326,23 @@ footer .rodape {
 }
 footer .rodape .social {
   display: flex;
-  gap: 27px;
+  gap: 24px;
 }
 footer .rodape .social img {
   width: 48px;
   height: 48px;
+}
+@media (max-width: 600px) {
+  footer .rodape .social {
+    gap: 12px;
+  }
 }
 footer .rodape .dados {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 12px;
 }
 footer .rodape .dados a {
   font-size: 20px;
@@ -289,7 +358,18 @@ footer .rodape .emblema img {
   footer .rodape {
     flex-direction: column;
     height: auto;
+    max-width: 600px;
     padding: 12px;
     gap: 12px;
+  }
+}
+@media (max-width: 300px) {
+  footer .rodape {
+    max-width: 300px;
+  }
+}
+@media (max-width: 200px) {
+  footer .rodape {
+    max-width: 200px;
   }
 }/*# sourceMappingURL=style.css.map */

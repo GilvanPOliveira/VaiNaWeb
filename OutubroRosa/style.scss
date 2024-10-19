@@ -63,6 +63,13 @@ header {
     flex-direction: column;
     height: auto;
     padding: 12px 0;
+    max-width: 600px;
+  }
+  @media (max-width: 300px) {
+    max-width: 300px;
+  }
+  @media (max-width: 200px) {
+    max-width: 200px;
   }
 }
 
@@ -122,8 +129,10 @@ main {
       @media (max-width: 600px) {
         font-size: 20px;
         height: auto;
+        max-width: 270px;
       }
       @media (max-width: 300px) {
+        max-width: 180px;
         font-size: 15px;
       }
     }
@@ -144,6 +153,13 @@ main {
       padding: 12px;
       gap: 12px;
       height: auto;
+      max-width: 600px;
+    }
+    @media (max-width: 300px) {
+      max-width: 300px;
+    }
+    @media (max-width: 200px) {
+      max-width: 200px;
     }
   }
   .secao2 {
@@ -165,8 +181,10 @@ main {
       @media (max-width: 600px) {
         font-size: 20px;
         height: auto;
+        max-width: 270px;
       }
       @media (max-width: 300px) {
+        max-width: 180px;
         font-size: 15px;
       }
     }
@@ -187,6 +205,13 @@ main {
       padding: 12px;
       gap: 12px;
       height: auto;
+      max-width: 600px;
+    }
+    @media (max-width: 300px) {
+      max-width: 300px;
+    }
+    @media (max-width: 200px) {
+      max-width: 200px;
     }
   }
   .secao3 {
@@ -213,7 +238,23 @@ main {
       padding: 12px;
       gap: 12px;
       height: auto;
+      max-width: 600px;
     }
+    @media (max-width: 300px) {
+      max-width: 300px;
+    }
+    @media (max-width: 200px) {
+      max-width: 200px;
+    }
+  }
+  @media (max-width: 600px) {
+    max-width: 600px;
+  }
+  @media (max-width: 300px) {
+    max-width: 300px;
+  }
+  @media (max-width: 200px) {
+    max-width: 200px;
   }
 }
 
@@ -222,7 +263,7 @@ footer {
   display: flex;
   align-content: center;
   .rodape {
-    height: 143px;
+    height: 165px;
     width: 1216px;
     color: #e4eef1;
     display: flex;
@@ -230,10 +271,13 @@ footer {
     align-items: center;
     .social {
       display: flex;
-      gap: 27px;
+      gap: 24px;
       img {
         width: 48px;
         height: 48px;
+      }
+      @media (max-width: 600px) {
+        gap: 12px;
       }
     }
     .dados {
@@ -241,6 +285,7 @@ footer {
       flex-direction: column;
       align-items: center;
       text-align: center;
+      gap: 12px;
       a {
         font-size: 20px;
         font-weight: 27;
@@ -257,8 +302,15 @@ footer {
     @media (max-width: 600px) {
       flex-direction: column;
       height: auto;
+      max-width: 600px;
       padding: 12px;
       gap: 12px;
+    }
+    @media (max-width: 300px) {
+      max-width: 300px;
+    }
+    @media (max-width: 200px) {
+      max-width: 200px;
     }
   }
 }
