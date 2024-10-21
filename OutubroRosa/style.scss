@@ -234,7 +234,7 @@ main {
       }
     }
     @media (max-width: 600px) {
-      flex-direction: column;
+      flex-wrap: wrap;
       padding: 12px;
       gap: 12px;
       height: auto;

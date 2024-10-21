@@ -278,7 +278,7 @@ main .secao3 img {
 }
 @media (max-width: 600px) {
   main .secao3 {
-    flex-direction: column;
+    flex-wrap: wrap;
     padding: 12px;
     gap: 12px;
     height: auto;
