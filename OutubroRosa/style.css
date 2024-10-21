@@ -276,6 +276,12 @@ main .secao3 img {
     height: 150px;
   }
 }
+@media (max-width: 200px) {
+  main .secao3 img {
+    width: 100px;
+    height: 100px;
+  }
+}
 @media (max-width: 600px) {
   main .secao3 {
     flex-wrap: wrap;
