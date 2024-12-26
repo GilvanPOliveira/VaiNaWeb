@@ -1,0 +1,273 @@
+/* Paleta de cores:
+#131524 (Azul Marinho) Texto
+#19182d (Índigo Escuro) Menu
+#303651 (Azul-petróleo) Borda
+#5a61ff (Azul Elétrico) Hover
+#8a8cff (Azul Pálido) Selecionado
+#c7d2dc (Azul Pastel) Background
+#e6e8f0 (Cinza Azulado) Texto 
+*/
+
+.main-bg {
+  padding: 12px;
+}
+
+.menu {
+  position: sticky;
+  border-radius: 12px;
+  display: flex;
+  color: #e6e8f0;
+  flex-direction: column;
+  background: #19182d;
+  padding: 12px;
+  border: 1px solid #303651;
+}
+
+.menuHamburguer button {
+  position: absolute;
+  visibility: hidden;
+  background-color: #131524;
+  border-radius: 6px;
+  font-size: 32px;
+  padding: 9px;
+  cursor: pointer;
+  color: #e6e8f0;
+}
+
+.menuAberto button {
+  left: 30px;
+  transform: rotate(-90deg);
+}
+
+.menuFechado button {
+  left: 12px;
+  transform: rotate(-180deg);
+}
+
+/* tamanho do menu colapsado ajustar no responssivo*/
+.menu.collapsed {
+  display: flex;
+  top: 70px;
+}
+
+.menu.collapsed .hide {
+  display: none;
+}
+
+.logo-bg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  height: 75px;
+  width: 100px;
+}
+
+.menu.collapsed .logo {
+  height: 40px;
+  width: 50px;
+}
+
+.menu-titulo {
+  color: #e6e8f0;
+  white-space: nowrap;
+  margin-top: 12px;
+  cursor: default;
+}
+
+.menu-perfil {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.menu.collapsed .perfil-img {
+  width: 50px;
+  height: 50px;
+}
+
+.perfil-img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: default;
+}
+
+.perfil-dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.perfil-nome {
+  color: #e6e8f0;
+}
+
+.perfil-cargo {
+  color: #e6e8f0;
+}
+
+.menu.collapsed .btnExpandir {
+  right: -20px;
+  top: 50px;
+}
+
+.btnExpandir {
+  position: absolute;
+  cursor: pointer;
+  right: -13px;
+  top: 80px;
+  border: 1px solid #303651;
+  background: #19182d;
+  border-radius: 6px;
+}
+
+.btnExpandir img {
+  transform: rotate(-360deg);
+  width: 32px;
+  height: 32px;
+  display: flex;
+}
+
+.collapsed .btnExpandir img {
+  transform: rotate(-180deg);
+}
+
+.menu-links {
+  margin-top: 24px;
+}
+
+.menu-links h2 {
+  display: flex;
+  padding: 12px;
+  color: #8a8cff;
+  margin-top: 32px;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.menu.collapsed h2 {
+  display: none;
+}
+
+.menu-links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cor dos icones durante o hover; so consegui mudar a cor assim */
+.menu-links li a:hover img {
+  filter: invert(0.5) sepia(3) saturate(6) hue-rotate(180deg);
+}
+
+.menu-links li a {
+  color: #e6e8f0;
+  padding: 12px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.menu-links li a img {
+  height: 32px;
+  width: 32px;
+}
+
+.menu-links li a:hover {
+  color: #5a61ff;
+}
+
+.colapsar .colapsar-item {
+  visibility: hidden;
+  background: #131524;
+  color: #e6e8f0;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 12px;
+  position: absolute;
+  z-index: 1;
+  left: 85px;
+}
+
+.collapsed .colapsar:hover .colapsar-item {
+  visibility: visible;
+}
+
+/* Resposivo */
+
+@media (max-width: 680px) {
+  .btnExpandir {
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    z-index: 2;
+  }
+  .menuHamburguer button {
+    visibility: visible;
+  }
+  .menu.collapsed {
+    top: 70px;
+  }
+}
+
+/* Modo Light - Menu */
+.light-mode .menu {
+  background: #19182d;
+  color: #131524;
+}
+
+.light-mode .menu-links li a {
+  color: #e6e8f0;
+}
+
+.light-mode .menu-links li a:hover {
+  color: #5a61ff;
+}
+
+.light-mode .menu-links li a:hover img {
+  filter: invert(0.5) sepia(3) saturate(6) hue-rotate(180deg);
+}
+
+.light-mode .menu-links h2 {
+  color: #8a8cff;
+}
+
+/* Modo Dark - Menu */
+.dark-mode .menu {
+  background: #303651;
+  color: #e6e8f0;
+}
+
+.dark-mode .btnExpandir {
+  background: #303651;
+  border: 1px solid #19182d;
+}
+
+.dark-mode .menu-links li a {
+  color: #e6e8f0;
+}
+
+.dark-mode .menu-links li a:hover {
+  color: #5a61ff;
+}
+
+.dark-mode .menu-links li a:hover img {
+  filter: invert(0.5) sepia(3) saturate(6) hue-rotate(180deg);
+}
+
+.dark-mode .menu-links h2 {
+  color: #8a8cff;
+}
