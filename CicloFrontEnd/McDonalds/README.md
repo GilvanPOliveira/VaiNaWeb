@@ -1,14 +1,8 @@
-📌 Desafio 06 - McDonald's
+# Desafio 06 - McDonald's
  
-## Projeto
-- Clone da interface do McDonald's, onde a proposta do desafio era criar um site com a interface do McDonald's, utilizando apenas HTML, CSS, JavaScript e React, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
+Clone da interface do McDonald's, onde a proposta do desafio era criar um site com a interface do McDonald's, utilizando apenas HTML, CSS, JavaScript e React, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
 
-## Projeto em execução 
-- https://vai-na-web-mc-donalds.vercel.app/
-
-## Estrutura do Projeto
-
-[figma](https://www.figma.com/design/JRYdr0RqOO7Dvw1xVSzaEh/Untitled?m=auto&fuid=1095694482153874605)
+### Contextualização:
 
 👋 Olá, queridos devs!
 
@@ -26,3 +20,23 @@ Lembre-se de ficar de olho no prazo de entrega dos exercícios. Estamos aqui par
 Juntos somos mais fortes! Vamos colaborar, compartilhar conhecimento e ajudar uns aos outros. Afinal, é assim que crescemos como uma comunidade.
 
 🚀 Estamos prontos para decolar! Mal posso esperar para ver as suas criações. Seja criativo, divirta-se e aproveite ao máximo essa jornada de aprendizado! 🍔🍟🍦
+
+## Imagens da aplicação:
+
+<div align="left">
+ <img src="https://i.imgur.com/z6CcYz8.png" height="150" />
+</div>
+
+## Projeto da aplicação:
+
+📌 [Figma](https://www.figma.com/design/JRYdr0RqOO7Dvw1xVSzaEh/Untitled?m=auto&fuid=1095694482153874605)
+
+## Execução da aplicação:
+
+📌 [Deploy]()
+
+ <br>
+ 
+[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+
+
