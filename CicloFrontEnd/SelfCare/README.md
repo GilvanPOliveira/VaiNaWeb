@@ -10,7 +10,7 @@ Você superou mais uma etapa com sucesso e fico muito feliz em ver sua trajetór
 Seu desafio está MARAVILHOSO!!! Parabéns! Você trouxe tudo que vimos nas aulas.
 - Segue algumas dicas para ficar 100%:
   - a) Cuidado com uso excessivo das divs;
-  - b) O <hr> não e uma tag semântica, não utilizamos, mas ela.
+  - b) O hr não e uma tag semântica, não utilizamos, mas ela.
   - c) A tag picture não é muito semântica porque ela geralmente e utilizada com o  <source>.
   - d) Também notei que envolveu a tag figcaption em outras, só que não é correto porque ela e apenas para descrição.
   - e) A div "menu2" e "menu3" seria melhor colocar section.
