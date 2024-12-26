@@ -1,23 +1,39 @@
-📌 Desafio Extra - Projeto Natalino 🎅(2023)
+# Desafio Extra - Projeto Natalino 🎅(2023)
  
-## Projeto
-- Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a doações, utilizando apenas HTML e CSS, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
+Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a doações, utilizando apenas HTML e CSS, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
 
-## Projeto em Execução
-- https://vai-na-web-projeto-natal.netlify.app/
-
-## Estrutura do Projeto
+### Contextualização:
 
 Oláa devs! 🌟 Como estão??    
 
 O Natal já passou mas olha o que ele nos deixou! 🎅🎄 
-
-[Figma](https://www.figma.com/design/BMcNmbOBgXMGBH9rOUNPR6/Vai-na-Web?node-id=0-1&p=f&t=i7IiJ9eyKqhu9nWV-0)
-
 Esse projeto aqui do Figma é uma ótima ideia para praticarmos o que aprendemos em aula. 🚀 
-
 Vamos aproveitar essa oportunidade para nos divertir e aprimorar ainda mais nossas habilidades!
-
 Vamos nos unir e criar incríveis projetos para 2024! 💪🚀 
-
 Juntos, podemos alcançar grandes conquistas.
+
+## Imagens da aplicação:
+
+<div align="left">
+ <img src="https://i.imgur.com/GgN4zoA.png" height="150" />
+</div>
+
+## Projeto da aplicação:
+
+📌 [Figma](https://www.figma.com/design/BMcNmbOBgXMGBH9rOUNPR6/Vai-na-Web?node-id=0-1&p=f&t=i7IiJ9eyKqhu9nWV-0)
+
+## Execução da aplicação:
+
+📌 [Deploy]()
+
+ <br>
+ 
+[<- Retornar aos Projetos Natalinos ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
+
+ <br>
+ 
+[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+
+
+
+
