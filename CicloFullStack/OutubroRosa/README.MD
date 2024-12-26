@@ -8,7 +8,7 @@ Olá, pessoal! 🌟
 
 Estou super animado para anunciar o Desafio 2! Este desafio é especial, pois será uma homenagem ao Outubro Rosa, um mês dedicado à conscientização sobre a saúde da mulher e à prevenção do câncer de mama. Vamos juntos mostrar nosso apoio e criatividade! 💪💕
 
-📝 Instruções do Desafio:
+- Instruções do Desafio 📝:
   - a) Utilize o design disponível no Figma que foi compartilhado em anexo. Siga todos os detalhes e elementos gráficos com atenção!  🧐
   - b) Desenvolva o site utilizando HTML  e SASS. Lembre-se de aplicar boas práticas de codificação e estruturação do projeto!  ⚒️
   - c) Depois de finalizar o projeto, suba o código no GitHub e faça o deploy para que possamos visualizar o resultado final!  🤩
