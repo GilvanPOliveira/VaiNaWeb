@@ -1,15 +1,23 @@
 📌 Desafio 08 - Cafeteria
 
-## Projeto
+Site criado para treinar a e relembrar sobre JavaScript e React, trazendo todo conhecimento até então para essa nova linguagem e framework, utilizando HTML, CSS, JavaScript e React.
 
-- Criação de um site para
+### Contextualização:
 
-## Projeto em execução
+## Imagens da aplicação:
 
--
+<div align="left">
+ <img src="" height="150" />
+</div>
 
-## Estrutura do Projeto
+## Projeto da aplicação:
 
-Pessoal, estamos animados em compartilhar o link do Figma com vocês para o nosso maravilhoso Desafio Final! 🎨💻 Aqui vocês encontrarão todos os detalhes e recursos visuais necessários para arrasar nessa última etapa.
+📌 [Figma](https://www.figma.com/design/Ki8xFmvyHwjrAJmNgZmp6U/get-coffee-layout-(Copy)?node-id=0-1&p=f&t=Fv4twBNwEqR3RbXa-0)
 
-🔗 Acesse aqui: https://www.figma.com/design/Ki8xFmvyHwjrAJmNgZmp6U/get-coffee-layout-(Copy)?node-id=0-1&p=f&t=Fv4twBNwEqR3RbXa-0
+## Execução da aplicação:
+
+📌 [Deploy]()
+
+ <br>
+ 
+[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
