@@ -1,14 +1,8 @@
-📌 Desafio 07 - Portifólio
- 
-## Projeto 
-- Modelo de portifólio pessoal, para divulgar minhas habilidades e projetos criados durante o curso.
+# Desafio 07 - Portifólio
 
-## Projeto em Execução
-- https://vai-na-web-portifolio.vercel.app/
+Modelo de portifólio pessoal, para divulgar minhas habilidades e projetos criados durante o curso.
 
-## Estrutura do Projeto 
-
-[figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
+### Contextualização:
 
 Oláaa, Devss!!! 😄🎉
 
@@ -26,3 +20,19 @@ E, é claro, a página precisa ser totalmente responsiva, garantindo uma experi�
 Observação: O Figma abaixo é apenas um exemplo para orientá-los durante o desenvolvimento do desafio. Usem a criatividade e coloquem em prática suas ideias! ❤
 
 Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembrem-se, cada passo que vocês dão é uma jornada emocionante de aprendizado e crescimento. Boa sorte e divirtam-se criando!!! 🌈👍 
+
+## Imagens da aplicação:
+<div align="left">
+ <img src="https://i.imgur.com/NcQ16l6.png" height="150" />
+</div>
+
+## Projeto da aplicação:
+📌 [Figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
+
+## Execução da aplicação:
+📌 [Deploy]()
+
+ <br>
+ 
+[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+
