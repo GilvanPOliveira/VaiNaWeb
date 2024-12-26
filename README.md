@@ -1,5 +1,7 @@
 <div align="center">
+ <a href="https://vainaweb.com.br/">
  <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
 </div>
 
 ## 📚 Sobre o Repositório
@@ -8,35 +10,37 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 
 ## 🚀 Estrutura do Repositório
 
-## Ciclo - FrontEnd
+### Ciclo - FrontEnd
 
-📌 Desafio 01 - [Uma mini wiki]()
+📌 Desafio 01 - [Mini wiki](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/MiniWiki)
 
-📌 Desafio 02 - [Prime Video]()
+📌 Desafio 02 - [Prime Video](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/PrimeVideo)
 
-📌 Desafio 03 - [Ritmo da batida]()
+📌 Desafio 03 - [Ritmo da batida](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/RitmoDaBatida)
 
-📌 Desafio 04 - [SelfCare]()
+📌 Desafio 04 - [SelfCare](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/SelfCare)
 
-📌 Desafio Extra - [Projeto Natalino 🎅(2023)]()
+📌 Desafio 05 - [Aprendendo React](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/React)
 
-📌 Desafio 05 - [Aprendendo React]()
+📌 Desafio 06 - [McDonald's](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/McDonalds)
 
-📌 Desafio 06 - [McDonald's]()
+📌 Desafio 07 - [Portifólio](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico)
 
-📌 Desafio 07 - [Portifólio]()
+### Ciclo - FullStack 
 
-📌 Desafio Extra - [Portifólio (Colaborativo)]()
+📌 Desafio 08 - [Cafeteria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Cafeteria)
 
-## Ciclo - FullStack 
+📌 Desafio 09 - [Outubro Rosa](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/OutubroRosa)
 
-📌 Desafio 08 - [Cafeteria]()
+📌 Desafio 10 - [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW)
 
-📌 Desafio 09 - [Outubro Rosa]()
+### Desafios Extras
 
-📌 Desafio 10 - [Livraria - Vai na Web]()
+📌 [Portifólio (Colaborativo)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo)
 
-📌 Desafio Extra - [Projeto Natalino 🎅(2024)]()
+📌 [Projeto Natalino 🎅(2023)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2023)
+
+📌 [Projeto Natalino 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
 
 ## Instituto Vai na Web
 
