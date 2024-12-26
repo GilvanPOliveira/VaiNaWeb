@@ -1,20 +1,21 @@
-📌 Desafio Extra - Portifólio (Colaborativo)
+# Desafio Extra - Portifólio (Colaborativo)
  
-## Projeto
 Projeto proposto para ajudar quem precisava de novas ideias para modelo de portifolio, utilizando HTML, CSS, JavaScript, React e Vite.js, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
 
-## Projeto em execução
-https://portifolio-colab.vercel.app/
+## Imagens da aplicação:
 
-## Para instalar e executar da forma correta:
-### Ao fazer o donwload do projeto, executar os comandos e depois executar:
+<div align="left">
+ <img src="https://i.imgur.com/1XVnttJ.png" height="150" />
+</div>
 
-- npm i
-- npm i styled-components
-- npm i react-router-dom
-- npm i swiper
-- npm i react-slick --save
-- npm i slick-carousel
+<!-- ## Projeto da aplicação:
 
-### Para Executar o projeto: 
-- npm run dev
+📌 [Figma]() -->
+
+## Execução da aplicação:
+
+📌 [Deploy]()
+
+ <br>
+ 
+[<- Retornar aos Portifólios](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios)
