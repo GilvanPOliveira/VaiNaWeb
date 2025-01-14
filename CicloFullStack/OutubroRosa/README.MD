@@ -28,7 +28,7 @@ Bora lá, time! 💪💖
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-outubro-rosa.vercel.app/)
 
  <br>
  
