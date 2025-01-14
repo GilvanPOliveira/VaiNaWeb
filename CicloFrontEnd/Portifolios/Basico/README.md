@@ -30,7 +30,7 @@ Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembre
 📌 [Figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
 
 ## Execução da aplicação:
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-portifolio-basico.vercel.app/)
 
  <br>
  
