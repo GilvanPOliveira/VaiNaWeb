@@ -33,7 +33,7 @@ Juntos somos mais fortes! Vamos colaborar, compartilhar conhecimento e ajudar un
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-mc-donalds.vercel.app/)
 
  <br>
  
