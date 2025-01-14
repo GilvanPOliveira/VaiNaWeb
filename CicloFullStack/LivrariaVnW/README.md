@@ -27,7 +27,7 @@ Esse é o momento de mostrar tudo o que aprenderam ao longo do curso e criar alg
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-livraria.vercel.app/)
 
  <br>
  
