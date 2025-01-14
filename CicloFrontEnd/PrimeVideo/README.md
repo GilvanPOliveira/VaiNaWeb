@@ -24,7 +24,7 @@ OBSERVAÇÕES:- Resolva uma linha por vez com bastante calma e cuidado. Confie n
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-prime-video.vercel.app/)
 
  <br>
  
