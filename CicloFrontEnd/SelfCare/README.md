@@ -34,7 +34,7 @@ Continue confiando no processo, está no caminho de um grande desenvolvedor Fron
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-self-care.vercel.app/)
 
  <br>
  
