@@ -14,7 +14,7 @@ Projeto proposto para ajudar quem precisava de novas ideias para modelo de porti
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-portifolio-colab.vercel.app/)
 
  <br>
  
