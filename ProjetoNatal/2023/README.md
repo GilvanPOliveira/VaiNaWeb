@@ -24,7 +24,7 @@ Juntos, podemos alcançar grandes conquistas.
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-projeto-natal-2023.vercel.app/)
 
  <br>
  
