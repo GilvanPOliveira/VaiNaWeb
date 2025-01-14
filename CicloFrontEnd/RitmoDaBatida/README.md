@@ -31,7 +31,7 @@ Fala Devssss!!!🚀🚀
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-beat.vercel.app/)
 
  <br>
  
