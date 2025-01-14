@@ -40,7 +40,7 @@ Agora que você já sabe como estruturar uma página, vamos nos conhecer um pouc
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-mini-wiki.vercel.app/)
 
  <br>
  
