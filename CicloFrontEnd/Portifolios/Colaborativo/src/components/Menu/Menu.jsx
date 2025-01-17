@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import "./style.css";
 import moon from "../../assets/icon/moon.svg";
 import sun from "../../assets/icon/sun.svg";
@@ -26,9 +27,12 @@ export default function Menu({ toggleDarkMode }) {
       if (window.innerWidth > 680) {
         setMenu(true);
       } else {
-        setMenu(false);
+        Menu.propTypes = {
+          toggleDarkMode: PropTypes.func.isRequired,
+        };
       }
     }
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);

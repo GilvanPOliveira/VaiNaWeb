@@ -70,6 +70,7 @@ export const HeaderPedidos = styled.div`
   }
   &:hover {
     background-color: #db0007;
+    transition: 1.5s ease;
   }
   cursor: pointer;
 `;

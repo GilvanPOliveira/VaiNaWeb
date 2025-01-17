@@ -75,10 +75,11 @@ export const ProjetosDescricao = styled.div`
     font-size: clamp(0.5rem, 0.4194rem + 0.6452vw, 1rem);
     text-align: center;
     color: white;
+    cursor: pointer;
   }
   //Scroll
   &::-webkit-scrollbar {
-    width: 0px;
+    width: 0.5px;
   }
   &::-webkit-scrollbar-track {
     background: transparent;

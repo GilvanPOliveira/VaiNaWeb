@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <S.BannerBg>
         <S.Banner>
-          <S.BannerItem src={banner} />
+          <S.BannerItem src={banner} title="Peça já seu Méqui" />
           <S.BannerTexto>
             <h1>BATEU AQUELA</h1>
             <h1>
@@ -33,9 +33,9 @@ export default function Home() {
         </S.Banner>
 
         <S.BannerItens>
-          <S.BannerItem1 onClick={item1} />
-          <S.BannerItem2 onClick={item2} />
-          <S.BannerItem3 onClick={item3} />
+          <S.BannerItem1 onClick={item1} title="Sanduíches de Carne Bovina" />
+          <S.BannerItem2 onClick={item2} title="Acompanhamentos" />
+          <S.BannerItem3 onClick={item3} title="Sobremesas" />
         </S.BannerItens>
       </S.BannerBg>
 
@@ -45,17 +45,23 @@ export default function Home() {
           <S.PromocaoItem1>
             <S.Pedidos />
             <h2>Que tal um #MéquiNoSofá?</h2>
-            <a href="/">Clique Aqui</a>
+            <a href="/" title="Peça já seu Méqui">
+              Clique Aqui
+            </a>
           </S.PromocaoItem1>
           <S.PromocaoItem2>
             <S.Restaurantes />
             <h2>Venha conhecer nossa nova loja</h2>
-            <a href="/">Clique Aqui</a>
+            <a href="/" title="Ache um Méqui perto de você">
+              Clique Aqui
+            </a>
           </S.PromocaoItem2>
           <S.PromocaoItem3>
             <S.Medidas />
             <h2>Confira as medidas que o Méqui adotou!</h2>
-            <a href="/">Clique Aqui</a>
+            <a href="/" title="Confira as medidas tomadas pelo Méqui">
+              Clique Aqui
+            </a>
           </S.PromocaoItem3>
         </S.PromocaoItens>
       </S.PromocaoBg>

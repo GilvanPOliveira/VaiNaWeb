@@ -3,13 +3,14 @@ import styled from "styled-components";
 export const MainBg = styled.div`
   display: flex;
   text-align: center;
+  cursor: default;
   background-color: #839697;
   height: 100vh;
   @media (max-width: 968px) {
     align-items: flex-start;
   }
 `;
- 
+
 export const Main = styled.div`
   display: flex;
   flex-direction: column;
@@ -54,6 +55,10 @@ export const Skill = styled.div`
     font-size: clamp(1rem, 0.6774rem + 2.5806vw, 3rem);
     color: white;
   }
+  img:hover {
+    transform: scale(1.1);
+    transition: 1.2s ease;
+  }
 `;
 
 export const Skills = styled.div`
@@ -67,7 +72,7 @@ export const Skills = styled.div`
   @media (max-width: 1000px) {
     flex-wrap: wrap;
   }
-  @media (max-width:  555px) {
+  @media (max-width: 555px) {
     gap: 32px;
     img {
       width: 50px;

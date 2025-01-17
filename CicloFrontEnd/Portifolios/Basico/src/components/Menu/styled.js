@@ -4,12 +4,13 @@ export const MenuBg = styled.div`
   background-color: #4a5051;
   width: 300px;
   height: 100vh;
+  cursor: default;
   @media (max-width: 768px) {
     width: 100%;
     position: absolute;
     z-index: 1;
     top: 0;
-    height: 16vh;
+    height: auto;
   }
 `;
 
@@ -21,7 +22,7 @@ export const Perfil = styled.div`
   padding: 32px 0 24px 0;
   img {
     width: 100px;
-    
+
     border-radius: 50%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   }
@@ -52,6 +53,7 @@ export const Menu = styled.nav`
     li:nth-child(1) {
       border-top: none;
     }
+    padding: 0;
   }
 `;
 

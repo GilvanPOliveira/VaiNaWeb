@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const MainBg = styled.div`
   display: flex;
   text-align: center;
+  cursor: default;
   background-color: #839697;
   height: 100vh;
   align-items: center;

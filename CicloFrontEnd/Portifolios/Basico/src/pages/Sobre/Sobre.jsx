@@ -27,11 +27,11 @@ export default function Sobre() {
           <div>
             <h2>Habilidades:</h2>
             <S.Skills>
-              <img src={html} alt="HTML" />
-              <img src={css} alt="CSS" />
-              <img src={javascript} alt="JavaScript" />
-              <img src={react} alt="React" />
-              <img src={styled} alt="Styled-Components" />
+              <img src={html} alt="HTML" title="Html"/>
+              <img src={css} alt="CSS" title="Css"/>
+              <img src={javascript} alt="JavaScript" title="JavaScript"/>
+              <img src={react} alt="React" title="React"/>
+              <img src={styled} alt="Styled-Components" title="Styled-Components"/>
             </S.Skills>
           </div>
         </S.Skill>

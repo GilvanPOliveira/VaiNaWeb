@@ -4,6 +4,7 @@ export const MainBg = styled.div`
   display: flex;
   text-align: center;
   align-items: center;
+  cursor: default;
   padding: 12px;
   min-height: 100vh;
   background-color: #c7d2dc;
@@ -139,7 +140,7 @@ export const Social = styled.div`
   gap: 24px;
   img {
     width: 50px;
-    height: 50px; 
+    height: 50px;
     background-color: #fff;
     border-radius: 20%;
     &:hover {

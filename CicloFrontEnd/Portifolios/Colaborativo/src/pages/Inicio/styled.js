@@ -11,6 +11,7 @@ import styled from "styled-components";
 
 export const MainBg = styled.div`
   display: flex;
+  cursor: default;
   text-align: center;
   align-items: center;
   padding: 12px;

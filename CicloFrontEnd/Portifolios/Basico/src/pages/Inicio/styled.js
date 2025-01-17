@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const MainBg = styled.div`
   display: flex;
+  cursor: default;
   justify-content: center;
   align-items: center;
   text-align: center;

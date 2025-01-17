@@ -59,12 +59,13 @@ export const BannerTexto = styled.div`
 export const BannerItem = styled.img`
   width: 300px;
   height: 300px;
-  cursor: default;
+  cursor: pointer;
+  border-radius: 75%;
   &:hover {
+    transition: 0.9s ease;
     transform: scale(1.1);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    border-radius: 75%;
   }
   @media (max-width: 710px) {
     width: 200px;
@@ -95,6 +96,7 @@ export const BannerItem1 = styled.div`
   align-self: center;
   &:hover {
     transform: scale(1.2);
+    transition: 1.2s ease;
   }
 `;
 export const BannerItem2 = styled.div`
@@ -107,6 +109,7 @@ export const BannerItem2 = styled.div`
   background-size: cover;
   &:hover {
     transform: scale(1.2);
+    transition: 1.2s ease;
   }
   @media (max-width: 710px) {
     align-self: center;
@@ -121,6 +124,7 @@ export const BannerItem3 = styled.div`
   background-size: cover;
   &:hover {
     transform: scale(1.2);
+    transition: 1.2s ease;
   }
   @media (max-width: 710px) {
     margin-top: 20px;
@@ -204,6 +208,7 @@ export const PromocaoItem1 = styled.div`
     justify-content: center;
     &:hover {
       background-color: #db0007;
+      transition: 1.5s ease;
     }
   }
   @media (max-width: 320px) {
@@ -242,7 +247,7 @@ export const PromocaoItem2 = styled.div`
     font: 700 20px "Roboto", sans-serif;
     color: #000;
     padding: 12px;
-    text-align: start;
+    text-align: center;
     margin-bottom: 20px;
     height: 72px;
     cursor: default;
@@ -261,6 +266,7 @@ export const PromocaoItem2 = styled.div`
     justify-content: center;
     &:hover {
       background-color: #db0007;
+      transition: 1.5s ease;
     }
   }
   @media (max-width: 320px) {
@@ -299,7 +305,7 @@ export const PromocaoItem3 = styled.div`
     font: 700 20px "Roboto", sans-serif;
     color: #000;
     padding: 12px;
-    text-align: start;
+    text-align: center;
     margin-bottom: 20px;
     height: 72px;
     cursor: default;
@@ -318,6 +324,7 @@ export const PromocaoItem3 = styled.div`
     justify-content: center;
     &:hover {
       background-color: #db0007;
+      transition: 1.5s ease;
     }
   }
   @media (max-width: 320px) {
