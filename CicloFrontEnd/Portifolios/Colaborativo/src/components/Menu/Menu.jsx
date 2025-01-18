@@ -4,7 +4,7 @@ import "./style.css";
 import moon from "../../assets/icon/moon.svg";
 import sun from "../../assets/icon/sun.svg";
 import projetos from "../../assets/icon/projetos.svg";
-import vnw from "../../assets/favicon/rabbit.svg";
+import vnw from "../../assets/rabbit.svg";
 import perfil from "../../assets/perfil.jpg";
 import home from "../../assets/icon/home.svg";
 import curriculo from "../../assets/icon/curriculo.svg";
