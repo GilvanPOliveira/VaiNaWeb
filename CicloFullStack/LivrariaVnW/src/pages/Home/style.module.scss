@@ -31,7 +31,7 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 0px 0px 180px 0px;
+  padding: 0px 0px 100px 0px;
   flex-wrap: wrap;
   article {
     width: 286px;
@@ -73,6 +73,9 @@
     div {
       padding: 40px;
     }
+  }
+  .boxCardDoar {
+    padding: 0px 0px 40px 0px;
   }
 }
 

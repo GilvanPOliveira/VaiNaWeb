@@ -27,6 +27,22 @@ header {
         height: 100px;
       }
     }
+    @media (max-width: 1200px) {
+      a {
+        img {
+          width: 95px;
+          height: 95px;
+        }
+      }
+    }
+    @media (max-width: 900px) {
+      a {
+        img {
+          width: 85px;
+          height: 85px;
+        }
+      }
+    }
     @media (max-width: 600px) {
       a {
         img {
@@ -52,6 +68,12 @@ header {
     text-transform: uppercase;
     margin: 0 3px;
     cursor: default;
+    @media (max-width: 1200px) {
+      font-size: 24px;
+    }
+    @media (max-width: 900px) {
+      font-size: 22px;
+    }
     @media (max-width: 600px) {
       font-size: 20px;
     }
@@ -59,17 +81,41 @@ header {
       font-size: 15px;
     }
   }
+  @media (max-width: 1200px) {
+    padding: 12px 0;
+    max-width: 1180px;
+  }
+  @media (max-width: 1100px) {
+    max-width: 1080px;
+  }
+  @media (max-width: 1000px) {
+    max-width: 980px;
+  }
+  @media (max-width: 900px) {
+    max-width: 880px;
+  }
+  @media (max-width: 800px) {
+    max-width: 780px;
+  }
+  @media (max-width: 700px) {
+    max-width: 680px;
+  }
   @media (max-width: 600px) {
     flex-direction: column;
     height: auto;
-    padding: 12px 0;
-    max-width: 600px;
+    max-width: 580px;
+  }
+  @media (max-width: 500px) {
+    max-width: 480px;
+  }
+  @media (max-width: 400px) {
+    max-width: 380px;
   }
   @media (max-width: 300px) {
-    max-width: 300px;
+    max-width: 280px;
   }
   @media (max-width: 200px) {
-    max-width: 200px;
+    max-width: 180px;
   }
 }
 
@@ -85,13 +131,43 @@ nav {
         font-weight: 38;
         color: #e4eef1;
         text-transform: uppercase;
-        @media (max-width: 600px) {
+        @media (max-width: 1200px) {
+          font-size: 26px;
+        }
+        @media (max-width: 1100px) {
+          font-size: 24px;
+        }
+        @media (max-width: 1000px) {
+          font-size: 22px;
+        }
+        @media (max-width: 900px) {
+          font-size: 21px;
+        }
+        @media (max-width: 800px) {
           font-size: 20px;
+        }
+        @media (max-width: 700px) {
+          font-size: 19px;
+        }
+        @media (max-width: 600px) {
+          font-size: 18px;
+        }
+        @media (max-width: 500px) {
+          font-size: 17px;
+        }
+        @media (max-width: 400px) {
+          font-size: 16px;
         }
         @media (max-width: 300px) {
           font-size: 15px;
         }
       }
+    }
+    @media (max-width: 1200px) {
+      gap: 60px;
+    }
+    @media (max-width: 900px) {
+      gap: 50px;
     }
     @media (max-width: 600px) {
       gap: 40px;
@@ -126,40 +202,134 @@ main {
       line-height: 1.5;
       color: #000;
       text-align: justify;
-      @media (max-width: 600px) {
-        font-size: 20px;
+      @media (max-width: 1200px) {
         height: auto;
-        max-width: 270px;
+        font-size: 24px;
+        max-width: 540px;
+      }
+      @media (max-width: 1100px) {
+        font-size: 23px;
+        max-width: 500px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 22px;
+        max-width: 460px;
+      }
+      @media (max-width: 900px) {
+        font-size: 21px;
+        max-width: 420px;
+      }
+      @media (max-width: 800px) {
+        font-size: 20px;
+        max-width: 380px;
+      }
+      @media (max-width: 700px) {
+        font-size: 19px;
+        max-width: 340px;
+      }
+      @media (max-width: 600px) {
+        font-size: 18px;
+        max-width: 300px;
+      }
+      @media (max-width: 500px) {
+        font-size: 17px;
+        max-width: 260px;
+      }
+      @media (max-width: 400px) {
+        font-size: 16px;
+        max-width: 220px;
       }
       @media (max-width: 300px) {
-        max-width: 180px;
         font-size: 15px;
+        max-width: 150px;
       }
     }
     img {
       width: 365px;
       height: 355px;
-      @media (max-width: 600px) {
+      @media (max-width: 1200px) {
+        width: 345px;
+        height: 335px;
+      }
+      @media (max-width: 1100px) {
         width: 325px;
         height: 315px;
+      }
+      @media (max-width: 1000px) {
+        width: 315px;
+        height: 295px;
+      }
+      @media (max-width: 900px) {
+        width: 295px;
+        height: 275px;
+      }
+      @media (max-width: 800px) {
+        width: 275px;
+        height: 255px;
+      }
+      @media (max-width: 700px) {
+        width: 255px;
+        height: 235px;
+      }
+      @media (max-width: 600px) {
+        width: 235px;
+        height: 215px;
+      }
+      @media (max-width: 500px) {
+        width: 225px;
+        height: 205px;
+      }
+      @media (max-width: 400px) {
+        width: 205px;
+        height: 195px;
       }
       @media (max-width: 300px) {
         width: 181px;
         height: 181px;
       }
+      @media (max-width: 200px) {
+        width: 151px;
+        height: 151px;
+      }
+    }
+    @media (max-width: 1200px) {
+      padding: 12px;
+      height: auto;
+      max-width: 1180px;
+    }
+    @media (max-width: 1100px) {
+      max-width: 1080px;
+    }
+    @media (max-width: 1000px) {
+      max-width: 980px;
+    }
+    @media (max-width: 900px) {
+      max-width: 880px;
+    }
+    @media (max-width: 800px) {
+      max-width: 780px;
+    }
+    @media (max-width: 700px) {
+      max-width: 680px;
     }
     @media (max-width: 600px) {
       flex-direction: column-reverse;
       padding: 12px;
       gap: 12px;
       height: auto;
-      max-width: 600px;
+      max-width: 580px;
+    }
+    @media (max-width: 500px) {
+      max-width: 480px;
+    }
+    @media (max-width: 400px) {
+      max-width: 380px;
     }
     @media (max-width: 300px) {
-      max-width: 300px;
+      max-width: 280px;
     }
     @media (max-width: 200px) {
-      max-width: 200px;
+      max-width: 180px;
     }
   }
   .secao2 {
@@ -178,40 +348,133 @@ main {
       line-height: 1.35;
       color: #e4eef1;
       text-align: justify;
-      @media (max-width: 600px) {
-        font-size: 20px;
+      @media (max-width: 1200px) {
         height: auto;
-        max-width: 270px;
+        font-size: 24px;
+        max-width: 600px;
+      }
+      @media (max-width: 1100px) {
+        font-size: 23px;
+        max-width: 550px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 22px;
+        max-width: 500px;
+      }
+      @media (max-width: 900px) {
+        font-size: 21px;
+        max-width: 450px;
+      }
+      @media (max-width: 800px) {
+        font-size: 20px;
+        max-width: 400px;
+      }
+      @media (max-width: 700px) {
+        font-size: 19px;
+        max-width: 350px;
+      }
+      @media (max-width: 600px) {
+        font-size: 18px;
+        max-width: 300px;
+      }
+      @media (max-width: 500px) {
+        font-size: 16px;
+        max-width: 250px;
+      }
+      @media (max-width: 400px) {
+        font-size: 15px;
+        max-width: 200px;
       }
       @media (max-width: 300px) {
-        max-width: 180px;
-        font-size: 15px;
+        font-size: 14px;
+        max-width: 150px;
       }
     }
     img {
       width: 421px;
       height: 234px;
+      @media (max-width: 1200px) {
+        width: 406px;
+        height: 219px;
+      }
+      @media (max-width: 1100px) {
+        width: 391px;
+        height: 204px;
+      }
+      @media (max-width: 1000px) {
+        width: 376px;
+        height: 189px;
+      }
+      @media (max-width: 900px) {
+        width: 361px;
+        height: 174px;
+      }
+      @media (max-width: 800px) {
+        width: 346px;
+        height: 159px;
+      }
+      @media (max-width: 700px) {
+        width: 331px;
+        height: 144px;
+      }
       @media (max-width: 600px) {
-        width: 321px;
-        height: 184px;
+        width: 316px;
+        height: 129px;
+      }
+      @media (max-width: 500px) {
+        width: 301px;
+        height: 114px;
+      }
+      @media (max-width: 400px) {
+        width: 286px;
+        height: 99px;
       }
       @media (max-width: 300px) {
         width: 181px;
         height: 94px;
       }
+      @media (max-width: 200px) {
+        width: 151px;
+        height: 64px;
+      }
+    }
+    @media (max-width: 1200px) {
+      padding: 12px;
+      height: auto;
+      max-width: 1180px;
+    }
+    @media (max-width: 1100px) {
+      max-width: 1080px;
+    }
+    @media (max-width: 1000px) {
+      max-width: 980px;
+    }
+    @media (max-width: 900px) {
+      max-width: 880px;
+    }
+    @media (max-width: 800px) {
+      max-width: 780px;
+      gap: 24px;
+    }
+    @media (max-width: 700px) {
+      max-width: 680px;
     }
     @media (max-width: 600px) {
       flex-direction: column;
-      padding: 12px;
+      max-width: 580px;
       gap: 12px;
-      height: auto;
-      max-width: 600px;
+    }
+    @media (max-width: 500px) {
+      max-width: 480px;
+    }
+    @media (max-width: 400px) {
+      max-width: 380px;
     }
     @media (max-width: 300px) {
-      max-width: 300px;
+      max-width: 280px;
     }
     @media (max-width: 200px) {
-      max-width: 200px;
+      max-width: 180px;
     }
   }
   .secao3 {
@@ -224,9 +487,41 @@ main {
     img {
       width: 250px;
       height: 250px;
-      @media (max-width: 600px) {
+      @media (max-width: 1200px) {
+        width: 240px;
+        height: 240px;
+      }
+      @media (max-width: 1100px) {
+        width: 230px;
+        height: 230px;
+      }
+      @media (max-width: 1000px) {
+        width: 220px;
+        height: 220px;
+      }
+      @media (max-width: 900px) {
+        width: 210px;
+        height: 210px;
+      }
+      @media (max-width: 800px) {
         width: 200px;
         height: 200px;
+      }
+      @media (max-width: 700px) {
+        width: 190px;
+        height: 190px;
+      }
+      @media (max-width: 600px) {
+        width: 180px;
+        height: 180px;
+      }
+      @media (max-width: 500px) {
+        width: 170px;
+        height: 170px;
+      }
+      @media (max-width: 400px) {
+        width: 160px;
+        height: 160px;
       }
       @media (max-width: 300px) {
         width: 150px;
@@ -237,28 +532,78 @@ main {
         height: 100px;
       }
     }
-    @media (max-width: 600px) {
-      flex-wrap: wrap;
+    @media (max-width: 1200px) {
       padding: 12px;
       gap: 12px;
       height: auto;
-      max-width: 600px;
+      max-width: 1180px;
+    }
+    @media (max-width: 1100px) {
+      max-width: 1080px;
+    }
+    @media (max-width: 1000px) {
+      max-width: 980px;
+    }
+    @media (max-width: 900px) {
+      flex-wrap: wrap;
+      padding: 12px;
+      gap: 12px;
+      max-width: 880px;
+    }
+    @media (max-width: 800px) {
+      max-width: 780px;
+    }
+    @media (max-width: 700px) {
+      max-width: 680px;
+    }
+    @media (max-width: 600px) {
+      max-width: 580px;
+    }
+    @media (max-width: 500px) {
+      max-width: 480px;
+    }
+    @media (max-width: 400px) {
+      max-width: 380px;
     }
     @media (max-width: 300px) {
-      max-width: 300px;
+      max-width: 280px;
     }
     @media (max-width: 200px) {
-      max-width: 200px;
+      max-width: 180px;
     }
   }
+  @media (max-width: 1200px) {
+    max-width: 1180px;
+  }
+  @media (max-width: 1100px) {
+    max-width: 1080px;
+  }
+  @media (max-width: 1000px) {
+    max-width: 980px;
+  }
+  @media (max-width: 900px) {
+    max-width: 880px;
+  }
+  @media (max-width: 800px) {
+    max-width: 780px;
+  }
+  @media (max-width: 700px) {
+    max-width: 680px;
+  }
   @media (max-width: 600px) {
-    max-width: 600px;
+    max-width: 580px;
+  }
+  @media (max-width: 500px) {
+    max-width: 480px;
+  }
+  @media (max-width: 400px) {
+    max-width: 380px;
   }
   @media (max-width: 300px) {
-    max-width: 300px;
+    max-width: 280px;
   }
   @media (max-width: 200px) {
-    max-width: 200px;
+    max-width: 180px;
   }
 }
 
@@ -303,18 +648,42 @@ footer {
         height: 109px;
       }
     }
-    @media (max-width: 600px) {
-      flex-direction: column;
+    @media (max-width: 1200px) {
       height: auto;
-      max-width: 600px;
+      max-width: 1180px;
       padding: 12px;
       gap: 12px;
     }
+    @media (max-width: 1100px) {
+      max-width: 1080px;
+    }
+    @media (max-width: 1000px) {
+      max-width: 980px;
+    }
+    @media (max-width: 900px) {
+      max-width: 880px;
+    }
+    @media (max-width: 800px) {
+      max-width: 780px;
+    }
+    @media (max-width: 700px) {
+      max-width: 680px;
+    }
+    @media (max-width: 600px) {
+      flex-direction: column;
+      max-width: 580px;
+    }
+    @media (max-width: 500px) {
+      max-width: 480px;
+    }
+    @media (max-width: 400px) {
+      max-width: 380px;
+    }
     @media (max-width: 300px) {
-      max-width: 300px;
+      max-width: 280px;
     }
     @media (max-width: 200px) {
-      max-width: 200px;
+      max-width: 180px;
     }
   }
 }
