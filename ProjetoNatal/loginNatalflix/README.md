@@ -1,6 +1,6 @@
-# Desafio Extra - Projeto Natalino 🎅(2024)
+# Desafio Extra - Projeto Natalino 🎅(2024 - Login)
 
-Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, criando a NatalFlix (streaming de filmes natalinos), utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
+Projeto de Natal, onde a proposta do desafio era criar um login para a NatalFlix, site de streaming de filmes natalinos criado em um outro projeto, utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
 
 ### Contextualização:
 
@@ -27,7 +27,10 @@ Juntos, podemos alcançar grandes conquistas.
 📌 [Deploy]()
 
  <br>
+
+[<- Retornar ao NatalFlix ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
  
+
 [<- Retornar aos Projetos Natalinos ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
 
  <br>
