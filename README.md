@@ -3,7 +3,7 @@
  <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
  </a>
 </div>
-
+ 
 ## 📚 Sobre o Repositório
 
 Este repositório concentra todo o conteúdo estudado no curso do instituto Vai na Web, reunindo todos os projetos desenvolvidos ao longo do programa e estudos realizados. A organização é feita por módulos dos projetos elaborados, o README principal de cada projeto inclui também o link para o deploy, permitindo a interação direta com a aplicação em produção. Essa estrutura tem como objetivo facilitar a localização e avaliação dos projetos, além de servir como referência para estudantes e desenvolvedores interessados em aprender as linguagens e tecnologias empregadas.
@@ -34,6 +34,10 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 
 📌 Desafio 10 - [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW)
 
+📌 Desafio (Não Oficial) - [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+
+📌 Desafio 12 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
+
 ### Desafios Extras
 
 📌 [Portifólio (Colaborativo)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo)
@@ -41,6 +45,9 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 📌 [Projeto Natalino 🎅(2023)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2023)
 
 📌 [Projeto Natalino 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
+
+📌 [NatalFlix 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
+
 
 ## Instituto Vai na Web
 
