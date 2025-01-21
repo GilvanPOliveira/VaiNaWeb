@@ -1,4 +1,4 @@
-# Desafio Extra 2 - Projeto Natalino 🎅(2024)
+# Desafio Extra - Projeto Natalino 🎅(2024)
 
 Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a curiosidades de natal, utilizando todo conteúdo aprendido até o momento, com a proposta de treinar tudo que foi estudado, responsividade, organização, estilização e novas técnicas.
 

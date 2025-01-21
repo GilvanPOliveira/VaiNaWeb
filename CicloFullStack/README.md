@@ -12,6 +12,10 @@ O Ciclo FullStack reúne todos os projetos elaborados durante o curso de FullSta
 
 📌 Desafio 10 - [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW)
 
+📌 Desafio (Não Oficial) - [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+
+📌 Desafio 12 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
+
 ## 🛠 Tecnologias Utilizadas
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,python,react,vite,sass,styledcomponents&perline=9)](https://github.com/GilvanPOliveira)

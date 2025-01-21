@@ -1,6 +1,6 @@
-# Desafio Extra - Projeto Natalino 🎅(2024)
+# Desafio Extra - Projeto NatalFlix 🎅(2024)
 
-Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, criando a NatalFlix (streaming de filmes natalinos), utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
+Projeto onde a proposta do desafio era elaborar um site com a temática natalina para filmes, um streaming, o NatalFlix! Utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
 
 ### Contextualização:
 
