@@ -8,7 +8,13 @@ O Projeto Natal reúne todos os projetos elaborados durante o peíodo natalino e
 
 📌 [Projeto Natalino 🎅(2023)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2023)
 
+📌 [Projeto NatalFlix 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
+
 📌 [Projeto Natalino 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
+
+📌 [Projeto Login Natalflix 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/loginNatalflix)
+
+
 
 ## 🛠 Tecnologias Utilizadas
 
