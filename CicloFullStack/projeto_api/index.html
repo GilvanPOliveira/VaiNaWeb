@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Teste da API Flask">
+  <link rel="icon" href="vnw.svg" type="image/x-icon">
+  <title>Teste da API - VnW</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 400px;
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    button {
+      flex: 1;
+      padding: 5px;
+      background: #666;
+      color: white;
+      font-size: 14px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    .message {
+      border-radius: 5px;
+      font-size: 14px;
+      display: none;
+      position: absolute;
+      padding: 10px;
+      width: 300px;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+
+    .list-container {
+      height: 205px;
+      overflow-y: auto;
+      padding: 0 6px;
+      border-radius: 8px;
+      text-align: start;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      background: white;
+      margin: 10px 0;
+      padding: 5px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+      gap: 10px;
+    }
+
+    img {
+      width: 60px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+  </style>
+
+  <script>
+    let livros = [];
+    let livrosExibidos = 3;
+
+    function showMessage(message, type) {
+      const messageBox = document.getElementById("messageBox");
+      messageBox.innerText = message;
+      messageBox.className = "message " + type;
+      messageBox.style.display = "block";
+      setTimeout(() => {
+        messageBox.style.display = "none";
+      }, 3000);
+    }
+
+    async function doarLivro() {
+      const titulo = document.getElementById("titulo").value;
+      const categoria = document.getElementById("categoria").value;
+      const autor = document.getElementById("autor").value;
+      const imagem_url = document.getElementById("imagem_url").value;
+
+      if (!titulo || !categoria || !autor || !imagem_url) {
+        showMessage("Todos os campos são obrigatórios!", "error");
+        return;
+      }
+
+      const response = await fetch("http://127.0.0.1:5000/doar", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ titulo, categoria, autor, imagem_url })
+      });
+
+      const data = await response.json();
+      showMessage(data.mensagem || data.erro, data.mensagem ? "success" : "error");
+      listarLivros();
+    }
+
+    async function listarLivros() {
+      const response = await fetch("http://127.0.0.1:5000/livros");
+      livros = await response.json();
+      livrosExibidos = 3;
+      renderizarLivros();
+    }
+
+    function renderizarLivros() {
+      const lista = document.getElementById("listaLivros");
+      lista.innerHTML = "";
+
+      const livrosParaMostrar = livros.slice(0, livrosExibidos);
+
+      livrosParaMostrar.forEach(livro => {
+        const item = document.createElement("li");
+        item.innerHTML = `
+          <img src="${livro.imagem_url}" alt="Capa do livro">
+          <div>
+            <strong>${livro.titulo}</strong> <br>
+            ${livro.autor} - <em>${livro.categoria}</em>
+          </div>
+        `;
+        lista.appendChild(item);
+      });
+    }
+
+    function carregarMaisLivros() {
+      if (livrosExibidos < livros.length) {
+        livrosExibidos += 3;
+        renderizarLivros();
+      }
+    }
+
+    window.onload = async () => {
+      await listarLivros();
+      document.getElementById("listaLivros").addEventListener("scroll", function () {
+        if (this.scrollTop + this.clientHeight >= this.scrollHeight) {
+          carregarMaisLivros();
+        }
+      });
+    };
+  </script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Teste da API - Vai na Web</h2>
+
+    <div id="messageBox" class="message"></div>
+
+    <h3>Cadastrar Livro</h3>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" placeholder="Digite o título do livro">
+
+    <label for="categoria">Categoria:</label>
+    <input type="text" id="categoria" placeholder="Ex: Ficção, Ciência, História">
+
+    <label for="autor">Autor:</label>
+    <input type="text" id="autor" placeholder="Nome do autor">
+
+    <label for="imagem_url">URL da Imagem:</label>
+    <input type="text" id="imagem_url" placeholder="URL da capa do livro">
+
+    <div class="btn-container">
+      <button onclick="doarLivro()">Cadastrar Livro</button>
+      <button onclick="listarLivros()">Atualizar Lista</button>
+    </div>
+
+    <div class="list-container">
+      <ul id="listaLivros"></ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
