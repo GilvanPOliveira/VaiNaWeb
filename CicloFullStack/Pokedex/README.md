@@ -16,9 +16,9 @@ Depois, usem o map() para renderizar os itens dinamicamente no HTML.
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="https://imgur.com/KbDtMW3" height="150" />
- <img src="https://imgur.com/qPLqmjL" height="150" />
- <img src="https://imgur.com/fGCcCTx" height="150" />
+ <img src="https://i.imgur.com/KbDtMW3.png" height="150" />
+ <img src="https://i.imgur.com/qPLqmjL.png" height="150" />
+ <img src="https://i.imgur.com/fGCcCTx.png" height="150" />
 </div>
 
 ## Projeto da aplicação:
