@@ -1,0 +1,786 @@
+* {
+  font-family: "Menlo", "Monaco", "Consolas", monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 6px;
+    background: #c9e6e4;
+  }
+}
+
+.pokedex-container {
+  position: relative;
+}
+
+.pokedex-images {
+  display: flex;
+}
+
+.pokemon-inicial {
+  position: absolute;
+  border-radius: 8px;
+  top: 170px;
+  left: 448px;
+  width: 243px;
+  height: 85px;
+  opacity: 0.8;
+}
+.pokemon-pokeball {
+  position: absolute;
+  border-radius: 8px;
+  top: 190px;
+  left: 124px;
+  width: 130px;
+  height: 100px;
+  opacity: 0.8;
+}
+
+.portifolio-link {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 8px;
+  top: 458px;
+  left: 582px;
+  width: 130px;
+  height: 30px;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    p {
+      color: #000;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+
+.portifolio-link:hover {
+  p {
+    color: #c70c12;
+  }
+}
+
+.pokemon-animated {
+  position: absolute;
+  top: 170px;
+  left: 72px;
+  height: 143px;
+  width: 225px;
+}
+
+.pokemon-data {
+  position: absolute;
+  border-radius: 6px;
+  top: 170px;
+  left: 448px;
+  width: 228px;
+  height: 87px;
+  overflow-y: auto;
+  font-size: 12px;
+  padding: 6px 8px 0px 7px;
+  background: #c9e6e4;
+  p {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px 0;
+    text-transform: capitalize;
+    .type-list {
+      display: flex;
+      gap: 4px;
+    }
+
+    .type-badge {
+      padding: 1px 6px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    // Cores por tipo
+    .fire {
+      background-color: #f08030;
+    }
+    .water {
+      background-color: #6890f0;
+    }
+    .grass {
+      background-color: #78c850;
+    }
+    .electric {
+      background-color: #f8d030;
+      color: #000;
+    }
+    .psychic {
+      background-color: #f85888;
+    }
+    .ice {
+      background-color: #98d8d8;
+      color: #000;
+    }
+    .fighting {
+      background-color: #c03028;
+    }
+    .poison {
+      background-color: #a040a0;
+    }
+    .ground {
+      background-color: #e0c068;
+      color: #000;
+    }
+    .flying {
+      background-color: #a890f0;
+    }
+    .bug {
+      background-color: #a8b820;
+    }
+    .rock {
+      background-color: #b8a038;
+    }
+    .ghost {
+      background-color: #705898;
+    }
+    .dragon {
+      background-color: #7038f8;
+    }
+    .dark {
+      background-color: #705848;
+    }
+    .steel {
+      background-color: #b8b8d0;
+      color: #000;
+    }
+    .fairy {
+      background-color: #ee99ac;
+      color: #000;
+    }
+    .normal {
+      background-color: #a8a878;
+    }
+  }
+}
+
+.status-container {
+  position: absolute;
+  top: 445px;
+  right: 537px;
+  display: flex;
+  font-size: 12px;
+  padding: 0 3px;
+  gap: 3px;
+  border-radius: 8px;
+  background: #333;
+  color: #eee;
+  .status-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .bar {
+      width: 8px;
+      height: 30px;
+      background: #fff;
+      color: #fff;
+      border-radius: 4px;
+      margin-top: 2px;
+      margin-bottom: 2px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .fill {
+      width: 100%;
+      background: #90f913;
+      transition: height 0.3s ease;
+    }
+
+    label {
+      color: #eee;
+      font-size: 9px;
+      margin-top: 4px;
+      margin-left: 3px;
+    }
+
+    span {
+      color: #eee;
+      font-size: 8px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.search-box {
+  position: absolute;
+  top: 456px;
+  left: 450px;
+
+  input {
+    padding: 9px;
+    width: 88px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .suggestions {
+    width: 238px;
+    max-height: 72px;
+    overflow-y: auto;
+    background: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin-top: 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-transform: capitalize;
+
+    li {
+      padding: 5px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: bold;
+      &:hover {
+        background: #ddd;
+      }
+    }
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.btn-reset {
+  position: absolute;
+  top: 385px;
+  left: 40px;
+  font-size: 20px;
+  padding: 22px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+
+  &:hover {
+    background: #666;
+    opacity: 0.5;
+  }
+}
+
+.btn-prev {
+  position: absolute;
+  top: 396px;
+  left: 279px;
+  padding: 16px 10px;
+  background: #333;
+  opacity: 0.2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-next {
+  position: absolute;
+  top: 449px;
+  left: 280px;
+  padding: 15px 10px;
+  background: #333;
+  opacity: 0.2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-back {
+  position: absolute;
+  top: 428px;
+  left: 248px;
+  padding: 10px 15px;
+  background: #333;
+  opacity: 0.2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-forward {
+  position: absolute;
+  top: 428px;
+  left: 298px;
+  padding: 10px 17px;
+  background: #333;
+  opacity: 0.2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-prev:hover,
+.btn-next:hover,
+.btn-back:hover,
+.btn-forward:hover {
+  background: #666;
+  opacity: 0.2;
+}
+
+.btn-front {
+  position: absolute;
+  top: 142px;
+  left: 165px;
+  padding: 4.5px;
+  border-radius: 50%;
+  background-color: transparent;
+  background: #ce1030;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-back-view {
+  position: absolute;
+  top: 142px;
+  left: 195px;
+  padding: 4.5px;
+  border-radius: 50%;
+  background-color: transparent;
+  background: #ce1030;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-front:hover,
+.btn-back-view:hover {
+  background: #ffa29c;
+}
+
+.radar-container {
+  position: absolute;
+  top: 444px;
+  left: 116px;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.btn-status-radar {
+  position: absolute;
+  top: 400px;
+  left: 174px;
+  padding: 5px 26px;
+  background-color: transparent;
+  background: #095377;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-status-vertical {
+  position: absolute;
+  top: 400px;
+  left: 102px;
+  padding: 5px 26px;
+  background-color: transparent;
+  background: #c70c12;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-status-radar:hover {
+  background: #0e88c3;
+}
+
+.btn-status-vertical:hover {
+  background: #ffa29c;
+}
+
+.btn-darkmode {
+  position: absolute;
+  top: 399px;
+  left: 665px;
+  padding: 12px;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.btn-darkmode:hover {
+  background: #c1ad30;
+}
+
+body.dark-mode {
+  background-color: #111;
+  color: #eee;
+}
+
+body.dark-mode .pokemon-data {
+  background-color: #333;
+  p {
+    color: #eee;
+  }
+}
+
+body.dark-mode .search-box input {
+  background: #222;
+  color: #fff;
+  border-color: #555;
+}
+
+body.dark-mode .suggestions {
+  background: #222;
+  border-color: #555;
+  color: #333;
+}
+
+body.dark-mode .type-badge {
+  filter: brightness(1.2);
+}
+
+body.dark-mode {
+  background: #222;
+  color: #eee;
+}
+
+body.dark-mode .status-container {
+  border-radius: 8px;
+  background: #ddd;
+  label,
+  span {
+    color: #333;
+  }
+  .bar {
+    background: #333;
+  }
+}
+
+body.dark-mode .pokemon-animated {
+  background: #333;
+  width: 238px;
+  height: 158px;
+  border-radius: 8px;
+  top: 164px;
+  left: 67px;
+}
+body.dark-mode .portifolio-link {
+  p {
+    color: #fff;
+  }
+}
+
+body.dark-mode .portifolio-link:hover {
+  p {
+    color: #76e611;
+  }
+}
+
+.evolution-chain {
+  position: absolute;
+  top: 379px;
+  left: 452px;
+  display: flex;
+  gap: 15px;
+  background: transparent;
+  padding: 2px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.evolution-image {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+  border: 2px solid transparent;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 4px currentColor, 0 0 8px currentColor;
+  }
+  50% {
+    opacity: 0.4;
+    box-shadow: 0 0 2px #000;
+  }
+}
+
+.led {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: blink 1.2s infinite ease-in-out;
+  z-index: 10;
+}
+
+/* LED 1 - Azul (#0bcdff) */
+.led-1 {
+  top: 14px;
+  left: 42px;
+  padding: 27px;
+  background-color: #0bcdff;
+  color: #0bcdff;
+  animation-delay: 0s;
+}
+
+/* LED 2 - Vermelho (#ee0707) */
+.led-2 {
+  padding: 5px;
+  top: 12px;
+  left: 115px;
+  background-color: #ee0707;
+  color: #ee0707;
+  animation-delay: 0.2s;
+}
+
+/* LED 3 - Amarelo (#e6eb14) */
+.led-3 {
+  padding: 5px;
+  top: 12px;
+  left: 147px;
+  background-color: #e6eb14;
+  color: #e6eb14;
+  animation-delay: 0.4s;
+}
+
+/* LED 4 - Verde Limão (#76e611) */
+.led-4 {
+  padding: 5px;
+  top: 12px;
+  left: 178px;
+  background-color: #76e611;
+  color: #76e611;
+  animation-delay: 0.6s;
+}
+
+/* LED 5 - Vermelho Escuro (#ce1030) */
+.led-5 {
+  top: 338px;
+  left: 90px;
+  padding: 9px;
+  background-color: #ce1030;
+  color: #ce1030;
+  animation-delay: 0.8s;
+}
+
+/* LED 3 - Amarelo (#c1ad30) */
+.led-6 {
+  padding: 9px;
+  top: 398px;
+  left: 664px;
+  background-color: #c1ad30;
+  color: #c1ad30;
+  animation-delay: 0.4s;
+  z-index: 3;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+  .pokedex-container {
+    width: 100%;
+    height: 100%;
+  }
+  .pokedex-images {
+    flex-direction: column;
+    align-items: start;
+    gap: 0px;
+  }
+  .pokemon-animated {
+    position: absolute;
+    top: 156px;
+    left: 65px;
+    width: 216px;
+    height: 142px;
+  }
+  body.dark-mode .pokemon-animated {
+    width: 223px;
+    height: 148px;
+    border-radius: 8px;
+    top: 155px;
+    left: 64px;
+  }
+  .status-container {
+    position: absolute;
+    top: 419px;
+    left: 83px;
+    width: 110px;
+    height: 55px;
+    .status-bar {
+      width: 17px;
+      .bar {
+        height: 30px;
+      }
+      label {
+        font-size: 8px;
+      }
+      span {
+        font-size: 6px;
+      }
+    }
+  }
+  .pokedex-image1 {
+    width: 382px;
+  }
+  .pokedex-image2 {
+    position: absolute;
+
+    top: 480px;
+    width: 385px;
+  }
+  .pokemon-data {
+    top: 667px;
+    left: 47px;
+    width: 257px;
+    height: 91px;
+    padding: 8px 8px 0px 7px;
+    p {
+      margin: 2px 0;
+    }
+  }
+  .search-box {
+    top: 982px;
+    left: 49px;
+    input {
+      padding: 11px;
+      width: 97px;
+    }
+  }
+  .suggestions {
+    width: 238px;
+    max-height: 72px;
+  }
+  .btn-darkmode {
+    top: 920px;
+    left: 291px;
+  }
+  .pokemon-inicial {
+    top: 669px;
+    left: 47px;
+    width: 272px;
+    height: 95px;
+  }
+  .evolution-chain {
+    top: 895px;
+    left: 50px;
+    gap: 6px;
+    img {
+      width: 46px;
+      height: 46px;
+    }
+  }
+  .btn-reset {
+    top: 362px;
+    left: 39px;
+  }
+  .btn-prev {
+    top: 373px;
+    left: 262px;
+  }
+  .btn-next {
+    top: 422px;
+    left: 262px;
+  }
+  .btn-back {
+    top: 404px;
+    left: 232px;
+  }
+  .btn-forward {
+    top: 403px;
+    left: 278px;
+  }
+  .btn-front {
+    top: 134px;
+    left: 155px;
+  }
+  .btn-back-view {
+    top: 134px;
+    left: 184px;
+  }
+  .radar-container {
+    top: 415px;
+    left: 108px;
+  }
+  .btn-status-radar {
+    top: 376px;
+    left: 162px;
+  }
+  .btn-status-vertical {
+    top: 376px;
+    left: 95px;
+  }
+  .led-1 {
+    top: 15px;
+    left: 40px;
+    padding: 25px;
+  }
+  .led-2 {
+    padding: 4px;
+    top: 12px;
+    left: 109px;
+  }
+  .led-3 {
+    padding: 4px;
+    top: 12px;
+    left: 139px;
+  }
+  .led-4 {
+    padding: 4px;
+    top: 12px;
+    left: 168px;
+  }
+  .led-5 {
+    top: 320px;
+    left: 87px;
+    padding: 7px;
+  }
+  .led-6 {
+    padding: 10px;
+    top: 917px;
+    left: 289px;
+  }
+  .portifolio-link {
+    top: 986px;
+    left: 204px;
+    a {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}
