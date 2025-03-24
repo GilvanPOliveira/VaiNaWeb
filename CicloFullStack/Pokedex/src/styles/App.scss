@@ -1,5 +1,6 @@
 * {
   font-family: "Menlo", "Monaco", "Consolas", monospace;
+  background: #c9e6e4;
 }
 
 .container {
@@ -7,7 +8,6 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background: #c9e6e4;
   ::-webkit-scrollbar {
     width: 6px;
   }
