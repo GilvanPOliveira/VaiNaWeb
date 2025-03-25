@@ -1,0 +1,283 @@
+/* Reset e base */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  color: #fff;
+  font-family: "Arial", sans-serif;
+  max-width: 1200px;
+}
+
+body {
+  background: #000;
+  padding: 0 20px 20px;
+}
+
+/* TOPO */
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.perfil {
+  position: relative;
+  margin-right: 40px;
+}
+
+.perfil img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.perfil .gorro {
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  width: 60px;
+}
+
+.perfil .seta {
+  position: absolute;
+  top: 0;
+  left: 45px;
+  width: 13px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+nav li img {
+  margin-top: -5px;
+  width: 25px;
+}
+
+.logo {
+  width: 120px;
+  margin-right: 0;
+}
+
+/* DESTAQUE */
+.destaque {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.titulo-filme {
+  width: 500px;
+  margin-top: 10px;
+}
+
+.info-filme {
+  margin: 10px 0;
+}
+
+.descricao {
+  max-width: 600px;
+}
+
+.botoes {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.botoes button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.assistir {
+  background-color: #ff0707;
+  color: #fff;
+}
+
+.favoritos {
+  background-color: #fff;
+  color: #000;
+}
+
+.botoes img {
+  width: 20px;
+}
+
+.imagem-filme {
+  width: 100%;
+  object-fit: cover;
+  margin: 10px 0;
+}
+
+.secao-filmes {
+  margin-top: 20px;
+}
+
+.secao-filmes h2 {
+  margin-bottom: 10px;
+}
+
+.lista-filmes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: hidden;
+  padding-bottom: 10px;
+}
+
+.filme {
+  position: relative;
+  width: 230px;
+  height: 150px;
+}
+
+.filme img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.filme::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 6px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.filme::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  height: 6px;
+  width: 0%;
+  background-color: #ff0707;
+  border-radius: 3px;
+  transition: width 0.5s ease-in-out;
+}
+
+.filme.progresso-10::after {
+  width: 10%;
+}
+.filme.progresso-30::after {
+  width: 30%;
+}
+.filme.progresso-60::after {
+  width: 60%;
+}
+.filme.progresso-80::after {
+  width: 80%;
+}
+.filme.progresso-100::after {
+  width: 100%;
+}
+
+.lista-filmes::-webkit-scrollbar {
+  height: 6px;
+}
+
+.lista-filmes::-webkit-scrollbar-thumb {
+  background-color: #ff0707;
+  border-radius: 10px;
+}
+
+.lista-filmes::-webkit-scrollbar-track {
+  background: #333;
+}
+
+@media (max-width: 900px) {
+  .topo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topo .perfil {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .topo .logo {
+    margin: 0 auto;
+  }
+
+  .topo nav ul {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .destaque {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .titulo-filme {
+    width: 100%;
+  }
+
+  .descricao {
+    max-width: 100%;
+  }
+
+  .botoes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .botoes button {
+    width: auto;
+  }
+
+  .filme {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 600px) {
+  .topo nav ul {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .botoes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botoes button {
+    width: 80%;
+    justify-content: center;
+  }
+
+}

@@ -4,12 +4,12 @@ Projeto onde a proposta do desafio era criar um login para a NatalFlix, site de 
 
 ### Contextualização:
 
-Oláa devs! 🌟 Como estão??    
+Oláa devs! 🌟 Como estão??
 
-O Natal já passou mas olha o que ele nos deixou! 🎅🎄 
-Esse projeto aqui do Figma é uma ótima ideia para praticarmos o que aprendemos em aula. 🚀 
+O Natal já passou mas olha o que ele nos deixou! 🎅🎄
+Esse projeto aqui do Figma é uma ótima ideia para praticarmos o que aprendemos em aula. 🚀
 Vamos aproveitar essa oportunidade para nos divertir e aprimorar ainda mais nossas habilidades!
-Vamos nos unir e criar incríveis projetos para 2025! 💪🚀 
+Vamos nos unir e criar incríveis projetos para 2025! 💪🚀
 Juntos, podemos alcançar grandes conquistas.
 
 ## Imagens da aplicação:
@@ -20,7 +20,7 @@ Juntos, podemos alcançar grandes conquistas.
 
 ## Projeto da aplicação:
 
-📌 [Figma](https://www.figma.com/design/5GZiDiMXLdazvjzjOqF3Pw/NatalFlix-(Copy)?node-id=0-1&p=f&t=tBZRGeWi8hrKQ7rl-0)
+📌 [Figma](<https://www.figma.com/design/vHTaUvhU4cNdVsXb9VdjDT/FINN---Login-(Copy)?node-id=0-1&p=f&t=apB9u6AzRUwL7r9B-0>)
 
 ## Execução da aplicação:
 
@@ -29,14 +29,9 @@ Juntos, podemos alcançar grandes conquistas.
  <br>
 
 [<- Retornar ao NatalFlix ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
- 
 
 [<- Retornar aos Projetos Natalinos ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
 
  <br>
  
 [<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
-
-
-
-

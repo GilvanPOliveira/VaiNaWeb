@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #8b0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+}
+
+.container h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 55px;
+  text-align: center;
+  color: #fff;
+}
+
+.container p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cabeca {
+  position: relative;
+  width: 475px;
+  height: 35px;
+  background-color: #d33232;
+  z-index: 0;
+}
+
+.orelhaEsquerda {
+  position: relative;
+  width: 130px;
+  height: 70px;
+  background-color: #d33232;
+  border-radius: 50px 50px 0 0;
+  z-index: 1;
+}
+.orelhaDireita {
+  position: absolute;
+  top: 200px;
+  left: 699px;
+  width: 130px;
+  height: 70px;
+  background-color: #d33232;
+  border-radius: 50px 50px 0 0;
+  z-index: 1;
+}
+
+.finn {
+  position: relative;
+  width: 475px;
+  height: 380px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.gorro1 {
+  position: relative;
+  left: -2px;
+  width: 480px;
+  height: 400px;
+  border-radius: 0 0 75px 75px;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.gorro1 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.gorro2 {
+  position: absolute;
+  top: 640px;
+  left: 705px;
+  width: 105px;
+  border-radius: 0 0 75px 75px;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.rosto {
+  position: absolute;
+  top: -50px;
+  left: 65px;
+  background-color: #ffe0bd;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 60px auto 0;
+  z-index: 5;
+}
+
+.olhoEsquerdo {
+  width: 50px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 70px;
+  z-index: 6;
+}
+
+.olhoDireito {
+  width: 50px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 220px;
+  z-index: 6;
+}
+
+.bgLogin {
+  position: absolute;
+  top: 225px;
+  left: 93px;
+  width: 160px;
+  z-index: 7;
+}
+
+.bgLogin input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.btnLogin {
+  position: absolute;
+  top: 765px;
+  left: 540px;
+  background-color: #115d33;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #000;
+  z-index: 8;
+}
