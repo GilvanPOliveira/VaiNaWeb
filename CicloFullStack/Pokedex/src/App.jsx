@@ -140,7 +140,7 @@ function App() {
         setFadeKey((prev) => prev + 1);
 
         if (resetEvolutionIndex) {
-          setEvolutionWindowIndex(0); // ✅ Só reseta se for necessário
+          setEvolutionWindowIndex(0); 
         }
       } catch (err) {
         console.error("Erro ao buscar Pokémon:", err);
@@ -304,7 +304,7 @@ function App() {
                         evo.name === pokemon.name ? "active" : ""
                       }`}
                       onClick={() => {
-                        fetchPokemon(evo.name, false, false); // 👈 não resetar janela ao navegar na cadeia
+                        fetchPokemon(evo.name, false, false);
                         if (
                           evolutionWindowIndex + idx + 1 <
                             evolutionSprites.length &&
@@ -361,7 +361,6 @@ function App() {
           disabled={loading}
         />
 
-        {/* Simulando 5 LEDs */}
         <div className="led led-1"></div>
         <div className="led led-2"></div>
         <div className="led led-3"></div>

@@ -7,7 +7,6 @@ body {
   padding: 0;
   background: #c9e6e4;
   color: #000;
-  overflow: hidden;
 }
 
 .container {
@@ -100,7 +99,6 @@ body {
   left: 448px;
   width: 228px;
   height: 87px;
-  overflow-y: auto;
   font-size: 12px;
   padding: 6px 8px 0px 7px;
   background: #c9e6e4;
@@ -123,7 +121,6 @@ body {
       color: #fff;
     }
 
-    // Cores por tipo
     .fire {
       background-color: #f08030;
     }
@@ -209,7 +206,6 @@ body {
       border-radius: 4px;
       margin-top: 2px;
       margin-bottom: 2px;
-      overflow: hidden;
       display: flex;
       align-items: flex-end;
     }
@@ -251,7 +247,6 @@ body {
   .suggestions {
     width: 238px;
     max-height: 72px;
-    overflow-y: auto;
     background: #fff;
     border: 2px solid #ccc;
     border-radius: 5px;
@@ -628,6 +623,13 @@ body.dark-mode .portifolio-link:hover {
     flex-direction: column;
     align-items: start;
     gap: 0px;
+  }
+  .pokemon-pokeball {
+    position: absolute;
+    top: 178px;
+    left: 108px;
+    width: 130px;
+    height: 100px;
   }
   .pokemon-animated {
     position: absolute;

@@ -2,7 +2,6 @@ import React from "react";
 
 function SearchBox({
   search,
-  setSearch,
   filteredPokemon,
   onInputChange,
   onFocus,
