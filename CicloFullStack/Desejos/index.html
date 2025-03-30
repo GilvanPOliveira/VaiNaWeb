@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VnW - Lâmpada de Aladim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>"Liberte a magia da programação com a lâmpada de Aladim."</h1>
+
+    <div class="lampadaBox" id="magicBox">
+      <img src="./assets/lampada.png" alt="Lâmpada Mágica" class="lampada" id="lampada" />
+      <img src="./assets/genio.png" alt="Gênio" class="genio hidden" id="genio" />
+    </div>
+
+    <button id="magicButton" class="pulse">Clique Aqui</button>
+  </div>
+
+  <script>
+    const button = document.getElementById("magicButton");
+    const lampada = document.getElementById("lampada");
+    const genio = document.getElementById("genio");
+
+    button.addEventListener("click", () => {
+      const genioVisible = !genio.classList.contains("hidden");
+
+      lampada.classList.toggle("hidden");
+      genio.classList.toggle("hidden");
+
+      button.textContent = genioVisible ? "Clique Aqui" : "Retornar a Lâmpada";
+    });
+  </script>
+
+</body>
+
+</html>

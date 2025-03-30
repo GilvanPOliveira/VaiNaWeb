@@ -1,0 +1,106 @@
+body,
+html {
+  font-family: Arial, sans-serif;
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  padding: 20px 40px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 120px;
+  height: 100px;
+}
+
+ul {
+  display: flex;
+  gap: 80px;
+  margin-right: 80px;
+  font-family: Zen Maru Gothic;
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  vertical-align: middle;
+  color: #d6e1ff;
+}
+
+ul li a:hover {
+  color: #3e3970;
+  transition: all 0.3s ease-in-out;
+}
+
+main {
+  padding: 0 40px 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anoNovo img {
+  width: 800px;
+  height: 600px;
+}
+
+.boasFestas h2 {
+  font-family: Zen Maru Gothic;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #3e3970;
+}
+
+.boasFestas h1 {
+  font-family: Zen Maru Gothic;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: middle;
+  color: #3e3970;
+}
+
+.boasFestas p {
+    width: 480px;
+    height: 360px;
+  font-family: Zen Maru Gothic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  text-align: right;
+  color: #3e3970;
+}
+
+footer {
+  padding: 20px 40px 0 40px;
+  display: flex;
+  justify-content: end;
+  gap : 40px;
+  align-items: center;
+}
+
+footer img {
+  width: 70px;
+  height: 70px;
+}

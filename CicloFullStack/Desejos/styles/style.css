@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Sevillana, cursive;
+  background: url("../assets/bg.png") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 6px #000;
+  font-family: Sevillana;
+  font-weight: 400;
+  font-size: 62px;
+}
+
+.lampadaBox {
+  position: relative;
+  min-height: 300px;
+}
+
+.lampada,
+.genio {
+  width: 300px;
+  transition: all 0.5s ease;
+}
+
+.lampada {
+  animation: pulse 2s infinite;
+}
+
+.genio {
+  width: 500px;
+  position: absolute;
+  top: -80px;
+  left: 35%;
+  transform: translateX(-35%);
+  animation: pulse 2s infinite;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  margin-top: 90px;
+  padding: 10px 20px;
+  font-family: Sevillana;
+  font-weight: 400;
+  font-size: 40px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003c99;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
