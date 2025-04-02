@@ -48,7 +48,7 @@ def listar_livros():
         livros = conn.execute("SELECT * FROM livros").fetchall()
 
     livros_formatados = []
-
+ 
     for livro in livros:
         dicionario_livros = {
             "id": livro[0],
