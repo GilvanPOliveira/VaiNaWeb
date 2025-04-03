@@ -156,6 +156,24 @@
   }
 }
 
+.btnDoarMais {
+  margin: 30px auto;
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #004477;
+  }
+}
+
 @media (max-width: 404px) {
   .boxContainer {
     padding: 0;

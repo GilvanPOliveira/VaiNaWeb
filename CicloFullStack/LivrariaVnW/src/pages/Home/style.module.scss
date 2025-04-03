@@ -1,13 +1,14 @@
 .boxBanner {
   background-image: url("../../assets/banner.png");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 560px;
   display: flex;
   align-items: center;
   cursor: default;
   h2 {
     color: #fff;
-    margin-left: 150px; 
+    margin-left: 150px;
     font-size: 32px;
     width: 350px;
   }
@@ -31,12 +32,12 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
-  padding: 0px 0px 100px 0px;
   flex-wrap: wrap;
   article {
     width: 286px;
     height: 321px;
     display: flex;
+    padding: 8px;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
@@ -47,6 +48,28 @@
       text-align: center;
       font-size: 21px;
     }
+  }
+}
+
+.boxBotao {display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btnDoar {
+  background-color: #005695;
+  color: white;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #004477;
   }
 }
 

@@ -2,6 +2,7 @@ import S from "./style.module.scss";
 import livro from "../../assets/livro.svg";
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Doacao() {
   const [titulo, setTitulo] = useState("");
@@ -10,28 +11,35 @@ export default function Doacao() {
   const [imagem_url, setImagem_url] = useState("");
   const [mensagem, setMensagem] = useState(null);
   const [tipoMensagem, setTipoMensagem] = useState("success");
+  const navigate = useNavigate();
 
   const enviarDados = async () => {
     const urlApi = "https://vai-na-web-livraria-api.onrender.com/doar";
     const dadosEnviar = { titulo, categoria, autor, imagem_url };
-
+  
     try {
       await axios.post(urlApi, dadosEnviar);
       setMensagem("Livro cadastrado com sucesso!");
       setTipoMensagem("success");
-
+  
       setTitulo("");
       setCategoria("");
       setAutor("");
       setImagem_url("");
+  
+      setTimeout(() => {
+        setMensagem(null);
+        navigate("/livros-doados");
+      }, 2000);
     } catch (error) {
       console.error("Erro ao cadastrar:", error);
       setMensagem("Erro ao cadastrar o livro!");
       setTipoMensagem("error");
+  
+      setTimeout(() => setMensagem(null), 3000);
     }
-
-    setTimeout(() => setMensagem(null), 3000); // limpa mensagem após 3s
   };
+  
 
   const capturaTitulo = (e) => {
     setTitulo(e.target.value);

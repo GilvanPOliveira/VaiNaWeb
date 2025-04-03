@@ -53,7 +53,7 @@ export default function LivrosDoados() {
       setTipoMensagem("error");
     }
     setTimeout(() => setMensagem(null), 3000);
-  }; 
+  };
 
   const iniciarEdicao = (livro) => {
     setEditando(livro.id);
@@ -166,10 +166,18 @@ export default function LivrosDoados() {
                     }
                   />
                   <div className={S.botoesEdicao}>
-                    <button className={S.salvar} onClick={() => salvarEdicao(item.id)}>
+                    <button
+                      className={S.salvar}
+                      onClick={() => salvarEdicao(item.id)}
+                    >
                       Salvar
                     </button>
-                    <button className={S.cancelar} onClick={() => setEditando(null)}>Cancelar</button>
+                    <button
+                      className={S.cancelar}
+                      onClick={() => setEditando(null)}
+                    >
+                      Cancelar
+                    </button>
                   </div>
                 </>
               ) : (
@@ -178,10 +186,16 @@ export default function LivrosDoados() {
                   <p>{item.autor}</p>
                   <p>{item.categoria}</p>
                   <div className={S.botoesEdicao}>
-                    <button className={S.editar} onClick={() => iniciarEdicao(item)}>
+                    <button
+                      className={S.editar}
+                      onClick={() => iniciarEdicao(item)}
+                    >
                       ✏️ Editar
                     </button>
-                    <button className={S.excluir} onClick={() => deletarLivro(item.id)}>
+                    <button
+                      className={S.excluir}
+                      onClick={() => deletarLivro(item.id)}
+                    >
                       🗑️ Excluir
                     </button>
                   </div>
@@ -200,6 +214,10 @@ export default function LivrosDoados() {
           </button>
         )}
       </section>
+
+      <button className={S.btnDoarMais} onClick={() => navigate("/doacao")}>
+        Deseja doar mais um livro?
+      </button>
     </>
   );
 }

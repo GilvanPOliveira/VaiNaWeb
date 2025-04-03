@@ -17,23 +17,23 @@ export default function footer() {
           <h3> 4002-8922 </h3>
         </a>
         <nav>
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/vainaweb">
             <img src={facebook} alt="Logo do Facebook" title="Facebook"/>
           </a>
 
-          <a href="https://x.com/">
+          <a href="https://x.com/vainaweb">
             <img src={twitter} alt="Logo do Twitter" title="Twitter"/>
           </a>
 
-          <a href="https://www.youtube.com/">
+          <a href="https://www.youtube.com/channel/UCzUldn76ZB0b-g6WOij9m3w">
             <img src={youtube} alt="Logo do YouTube" title="YouTube"/>
           </a>
 
-          <a href="https://www.linkedin.com/">
+          <a href="https://br.linkedin.com/company/vainaweb">
             <img src={linkedin} alt="Logo do Linkedin" title="Linkedin"/>
           </a>
 
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/vainaweb/">
             <img src={instagram} alt="Logo do Instagram" title="Instagram"/>
           </a>
         </nav>
