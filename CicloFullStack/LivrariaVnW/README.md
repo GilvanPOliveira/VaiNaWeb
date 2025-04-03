@@ -18,7 +18,14 @@ Esse é o momento de mostrar tudo o que aprenderam ao longo do curso e criar alg
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="" height="150" />
+
+ <img src="https://i.imgur.com/GIjvnxl.png" height="150" />
+ <img src="https://i.imgur.com/0xbr6wS.png" height="150" />
+ <img src="https://i.imgur.com/uB2gPNG.png" height="150" />
+ <img src="https://i.imgur.com/eDhZivi.png" height="150" />
+  <img src="https://i.imgur.com/UKQkfmv.png" height="110" />
+ <img src="https://i.imgur.com/LQWVqIL.png" height="110" />
+ <img src="https://i.imgur.com/zOAqAWz.png" height="110" />
 </div>
 
 ## Projeto da aplicação:
