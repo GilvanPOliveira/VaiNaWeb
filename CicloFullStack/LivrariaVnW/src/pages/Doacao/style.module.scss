@@ -36,7 +36,6 @@
         font-size: 24px;
         font-weight: lighter;
       }
-
     }
     input {
       width: 325px;
@@ -46,7 +45,7 @@
       outline: none;
       padding-left: 20px;
       &::placeholder {
-        color: #000;
+        color: #ddd;
         transition: color 0.4s ease;
       }
       &:hover {
@@ -65,10 +64,45 @@
     color: #fff;
     font-size: 17px;
   }
+  .doar {
+    background-color: #005695;
+    padding-left: 0;
+    color: white;
+    font-size: 18px;
+  }
+  .mensagemBg {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mensagem {
+      padding: 10px 16px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      min-width: 260px;
+    }
+
+    .success {
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+    }
+
+    .error {
+      background-color: #f8d7da;
+      color: #721c24;
+      border: 1px solid #f5c6cb;
+    }
+  }
 }
 
 @media (max-width: 400px) {
-  .boxFormulario{
+  .boxFormulario {
     form {
       width: 280px;
       height: 525px;
@@ -92,11 +126,11 @@
 }
 
 @media (max-width: 300px) {
-  .boxFormulario{
+  .boxFormulario {
     form {
       width: 230px;
       height: 525px;
-      
+
       div {
         margin-top: 30px;
         margin-bottom: 20px;
@@ -116,33 +150,33 @@
 }
 
 @media (max-width: 255px) {
-.boxFormulario {
-  form {
-    width: 180px;
-    height: 525px;
-    div {
-      margin-top: 30px;
-      margin-bottom: 20px;
-      flex-direction: column;
-      h3 {
-        font-size: 20px;
+  .boxFormulario {
+    form {
+      width: 180px;
+      height: 525px;
+      div {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        h3 {
+          font-size: 20px;
+        }
       }
-    }
-    input {
-      width: 150px;
-      height: 42px;
-      &::placeholder {
-        font-size: 15px;
+      input {
+        width: 150px;
+        height: 42px;
+        &::placeholder {
+          font-size: 15px;
+        }
       }
-    }
-    input:nth-child(6) {
-      background-color: #005695;
-      width: 150px;
-      height: 42px;
-      margin-bottom: 20px;
+      input:nth-child(6) {
+        background-color: #005695;
+        width: 150px;
+        height: 42px;
+        margin-bottom: 20px;
+      }
     }
   }
-}
 }
 
 @media (max-width: 202px) {
@@ -151,7 +185,7 @@
       font-size: 20px;
     }
   }
-  .boxFormulario{
+  .boxFormulario {
     form {
       width: 140px;
       height: 525px;
@@ -179,5 +213,4 @@
       }
     }
   }
-  
 }

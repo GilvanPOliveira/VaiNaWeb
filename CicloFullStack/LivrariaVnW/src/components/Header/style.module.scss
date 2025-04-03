@@ -122,3 +122,61 @@ header {
     text-align: center;
   }
 }
+.boxBusca {
+  position: relative;
+
+  input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: 200px;
+  }
+
+  img {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    width: 20px;
+    cursor: pointer;
+  }
+}
+
+.sugestoes {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  z-index: 10;
+  list-style: none;
+  padding: 0;
+  margin: 5px 0 0 0;
+  max-height: 150px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  li {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background-color: #f0f0f0;
+    }
+  }
+}
+.resultadoBusca {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+
+  strong {
+    color: #005695;
+  }
+}
+
+.destaque {
+  border: 3px solid #00aaff !important;
+}

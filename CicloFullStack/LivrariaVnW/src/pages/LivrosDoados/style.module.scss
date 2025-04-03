@@ -14,22 +14,124 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 40px 20px 40px;
-  gap: 40px;
+  padding: 10px 20px 10px 20px;
+  gap: 20px;
   cursor: pointer;
   article {
-    padding: 20px;
+    padding: 10px;
     border: solid 2px #005695;
     width: 300px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     border-radius: 15px;
     img {
       margin-bottom: 12px;
+      width: 25%;
     }
+  }
+}
+
+.mensagemBg {
+  height: 40px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mensagem {
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  min-width: 260px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.botoesEdicao {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .editar {
+    background-color: #333;
+    color: white;
+  }
+
+  .excluir {
+    background-color: #721c24;
+    color: white;
+  }
+
+  .salvar {
+    background-color: #155724;
+    color: white;
+  }
+
+  .cancelar {
+    background-color: #333;
+    color: white;
+  }
+}
+
+.inputEdicao {
+  width: 90%;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #eee;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.3s ease;
+
+  &:focus {
+    background-color: #ddd;
+    border-color: #eee;
+  }
+}
+
+.btnVoltar {
+  background-color: #005695;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+
+  &:hover {
+    background-color: #004477;
   }
 }
 
@@ -48,7 +150,8 @@
     h2 {
       padding: 12px 0px;
       font-size: 24px;
-    }}
+    }
+  }
   .boxCard {
     gap: 20px;
     article {
@@ -64,7 +167,8 @@
     h2 {
       padding: 12px 0px;
       font-size: 20px;
-    }}
+    }
+  }
   .boxCard {
     gap: 20px;
     article {
