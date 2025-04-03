@@ -1,36 +1,106 @@
-# Desafio 10.2 - Projeto API - Livraria Vai na Web
+# Desafio 10.1 - 📚 API de Doação de Livros
 
-### Contextualização:
+### Esta é uma API simples feita com Flask e SQLite que permite cadastrar e listar livros doados.
 
-O nosso segundo desafio do módulo de Back-end é desenvolver uma API utilizando e para cadastrar e listar livros. Você irá aplicar os  conceitos que aprendemos de desenvolvimento web, banco de dados e boas práticas na construção de APIs.  
+<hr>
 
-Você precisa criar uma API em Flask que permita:
-  - Cadastrar um livro no banco de dados (POST com a rota /doar)  
-  - Listar todos os livros cadastrados (GET com a rota /livros)  
-  - Exibir uma página inicial (GET com a rota /) com uma mensagem personalizada à sua escolha.
+# ▶️ Como rodar o projeto
 
-⚙️ Requisitos técnicos:
-1️⃣ Utilize Flask para criar as rotas.
-2️⃣ Utilize SQLite como banco de dados.  
-3️⃣ A tabela do banco de dados deve ser chamada LIVROS e conter os seguintes campos:
-  - id (chave primária, autoincrementada)
-  - titulo (texto, obrigatório)
-  - categoria (texto, obrigatório)
-  - autor (texto, obrigatório)
-  - imagem_url (texto, obrigatório)
-5️⃣ Ao cadastrar um novo livro, a API deve retornar uma resposta JSON com o código 201 confirmando o cadastro.  
-6️⃣ A rota GET /livros deve retornar todos os livros cadastrados no banco de dados, organizados em um JSON contendo: 
-  - id
-  - título
-  - categoria
-  - autor
-  - imagem_url  
-7️⃣ A rota inicial (/) deve exibir uma mensagem personalizada que você irá criar!
+Clone o repositório:
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd nome-do-projeto
+```
+Crie um ambiente virtual (opcional, mas recomendado):
+```bash
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
+
+Instale as dependências:
+```bash
+pip install -r requirements.txt
+```
+
+Inicie o servidor:
+```bash
+python app.py
+```
+
+<blockquote> A API estará disponível em http://localhost:5000 </blockquote>
+<hr>
+
+# 🔗 Endpoints
+
+## ➕ POST <code>/doar</code>
+Cadastra um novo livro.
+
+**Requisição (JSON):**
+```bash
+{
+  "titulo": "Dom Casmurro",
+  "categoria": "Romance",
+  "autor": "Machado de Assis",
+  "imagem_url": "https://link-da-imagem.com"
+}
+```
+**Resposta (201):**
+```bash
+{
+  "mensagem": "Livro cadastrado com sucesso!"
+}
+```
+
+<hr>
+
+## 📚 GET <code>/livros</code>
+Retorna todos os livros cadastrados.
+
+**Resposta (200):**
+```bash
+[
+  {
+    "id": 1,
+    "titulo": "Dom Casmurro",
+    "categoria": "Romance",
+    "autor": "Machado de Assis",
+    "imagem_url": "https://link-da-imagem.com"
+  }
+]
+```
+
+<hr>
+
+## ❌ DELETE <code>/livros/id</code>
+Deletar um Livro.
+
+**Resposta (200):**
+```bash
+{
+    "menssagem": "Livro excluido com sucesso!"
+}
+```
+
+<hr>
+
+# 🧰 Tecnologias utilizadas
+- Python 3
+- Flask
+- SQLite
+- Flask-CORS
+
+<hr>
 
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="" height="150" />
+ <img src="https://i.imgur.com/GIjvnxl.png" height="150" />
+ <img src="https://i.imgur.com/uB2gPNG.png" height="150" />
+ <img src="https://i.imgur.com/eDhZivi.png" height="150" />
+ <img src="https://i.imgur.com/0xbr6wS.png" height="150" />
+  <img src="https://i.imgur.com/UKQkfmv.png" height="110" />
+ <img src="https://i.imgur.com/LQWVqIL.png" height="110" />
+ <img src="https://i.imgur.com/zOAqAWz.png" height="110" />
 </div>
 
 ## Projeto da aplicação:
@@ -39,7 +109,7 @@ Você precisa criar uma API em Flask que permita:
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-livraria.vercel.app/)
 
  <br>
  
