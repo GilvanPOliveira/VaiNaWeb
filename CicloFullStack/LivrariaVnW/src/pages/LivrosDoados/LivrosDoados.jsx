@@ -53,7 +53,7 @@ export default function LivrosDoados() {
       setTipoMensagem("error");
     }
     setTimeout(() => setMensagem(null), 3000);
-  };
+  }; 
 
   const iniciarEdicao = (livro) => {
     setEditando(livro.id);
@@ -100,7 +100,7 @@ export default function LivrosDoados() {
             </p>
           ))}
 
-        <div className={S.mensagemWrapper}>
+        <div className={S.mensagemBg}>
           <div
             className={`${S.mensagem} ${
               mensagem ? (tipoMensagem === "success" ? S.success : S.error) : ""
@@ -166,10 +166,10 @@ export default function LivrosDoados() {
                     }
                   />
                   <div className={S.botoesEdicao}>
-                    <button onClick={() => salvarEdicao(item.id)}>
+                    <button className={S.salvar} onClick={() => salvarEdicao(item.id)}>
                       Salvar
                     </button>
-                    <button onClick={() => setEditando(null)}>Cancelar</button>
+                    <button className={S.cancelar} onClick={() => setEditando(null)}>Cancelar</button>
                   </div>
                 </>
               ) : (
@@ -178,10 +178,10 @@ export default function LivrosDoados() {
                   <p>{item.autor}</p>
                   <p>{item.categoria}</p>
                   <div className={S.botoesEdicao}>
-                    <button onClick={() => iniciarEdicao(item)}>
+                    <button className={S.editar} onClick={() => iniciarEdicao(item)}>
                       ✏️ Editar
                     </button>
-                    <button onClick={() => deletarLivro(item.id)}>
+                    <button className={S.excluir} onClick={() => deletarLivro(item.id)}>
                       🗑️ Excluir
                     </button>
                   </div>
