@@ -94,13 +94,8 @@ Deletar um Livro.
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="https://i.imgur.com/GIjvnxl.png" height="150" />
- <img src="https://i.imgur.com/uB2gPNG.png" height="150" />
- <img src="https://i.imgur.com/eDhZivi.png" height="150" />
- <img src="https://i.imgur.com/0xbr6wS.png" height="150" />
-  <img src="https://i.imgur.com/UKQkfmv.png" height="110" />
- <img src="https://i.imgur.com/LQWVqIL.png" height="110" />
- <img src="https://i.imgur.com/zOAqAWz.png" height="110" />
+ <img src="https://i.imgur.com/Dropmkn.png" height="150" />
+ <img src="https://i.imgur.com/sxipHyq.png" height="150" />
 </div>
 
 ## Projeto da aplicação:
