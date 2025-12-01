@@ -36,12 +36,6 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 
 📌 Desafio 11 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
 
-📌 Desafios (Não Oficiais): 
-- [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
-- [Pokedex](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Pokedex)
-- [Projeto - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api)
-- [Livraria - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/livrariaApiVnw)
-
 ### Desafios Extras
 
 📌 [Portifólio (Colaborativo)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo)
@@ -52,6 +46,13 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 
 📌 [NatalFlix 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
 
+📌 [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+
+📌 [Pokedex](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Pokedex)
+
+📌 [Projeto - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api)
+
+📌 [Livraria - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/livrariaApiVnw)
 
 ## Instituto Vai na Web
 

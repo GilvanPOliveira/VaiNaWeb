@@ -22,11 +22,15 @@ O Ciclo FullStack reúne todos os projetos elaborados durante o curso de FullSta
 
 📌 Desafio 11 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
 
-📌 Desafios (Não Oficiais):
-- [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
-- [Pokedex](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Pokedex)
-- [Projeto - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api)
-- [Livraria - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/livrariaApiVnw)
+📌 Desafios Extras:
+
+📌 [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+
+📌 [Pokedex](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Pokedex)
+
+📌 [Projeto - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api)
+
+📌 [Livraria - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/livrariaApiVnw)
 
 ## 🛠 Tecnologias Utilizadas
 
