@@ -1,4 +1,12 @@
-# Desafio 07 - Portifólio
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 07 - Portifólio
 
 Modelo de portifólio pessoal, para divulgar minhas habilidades e projetos criados durante o curso.
 
@@ -30,16 +38,8 @@ Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembre
 📌 [Figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
 
 ## Execução da aplicação:
-📌 [Deploy](https://vai-na-web-portifolio-basico.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-portifolio.vercel.app/)
 
  <br>
  
-[<- Retornar aos Portifólios](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios)
-
-<br>
-
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios)

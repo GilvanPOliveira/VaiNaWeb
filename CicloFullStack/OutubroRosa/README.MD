@@ -1,4 +1,12 @@
-# Desafio 09 - Outubro Rosa
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 09 - Outubro Rosa
 
 Criação de um site para a concientização do Outubro Rosa, utilizando HTML  e SASS.
 
@@ -28,12 +36,8 @@ Bora lá, time! 💪💖
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-outubro-rosa.vercel.app/)
+📌 [Deploy](https://vai-na-web-fullstack-outubro-rosa.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

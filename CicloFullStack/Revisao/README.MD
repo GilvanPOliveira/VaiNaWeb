@@ -1,4 +1,12 @@
-# Desafio Não Oficial - Reforçar Conhecimentos Adquiridos!
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio de Revisão - Reforçar Conhecimentos Adquiridos!
 
 Criação de um site para estudos de parâmetros, métodos e funções abordados antes do recesso, para demonstrar prática e o conhecimento adquirido.
 
@@ -24,7 +32,7 @@ Quero ver a criatividade voando alto! 🛫🔥
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="" height="150" />
+ <img src="./image.png" height="150" />
 </div>
 
 ## Projeto da aplicação:
@@ -33,12 +41,8 @@ Quero ver a criatividade voando alto! 🛫🔥
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-fullstack-revisao.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

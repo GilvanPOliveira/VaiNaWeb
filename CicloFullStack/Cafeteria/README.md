@@ -1,13 +1,21 @@
-📌 Desafio 08 - Cafeteria
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
 
-Site criado para treinar a e relembrar sobre JavaScript e React, trazendo todo conhecimento até então para essa nova linguagem e framework, utilizando HTML, CSS, JavaScript e React.
+<br>
+
+# 📌 Desafio 08 - Cafeteria
 
 ### Contextualização:
+
+Site criado para treinar a e relembrar sobre JavaScript e React, trazendo todo conhecimento até então para essa nova linguagem e framework, utilizando HTML, CSS, JavaScript e React.
 
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="" height="150" />
+ <img src="./image.png" height="150" />
 </div>
 
 ## Projeto da aplicação:
@@ -16,12 +24,8 @@ Site criado para treinar a e relembrar sobre JavaScript e React, trazendo todo c
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-fullstack-cafeteria.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

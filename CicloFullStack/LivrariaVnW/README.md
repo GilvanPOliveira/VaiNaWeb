@@ -1,6 +1,12 @@
-# Desafio 10 - Livraria Vai na Web
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
 
-- Criação de um site para
+<br>
+
+# 📌 Desafio 10 - Livraria Vai na Web
 
 ### Contextualização:
 
@@ -34,12 +40,8 @@ Esse é o momento de mostrar tudo o que aprenderam ao longo do curso e criar alg
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-livraria.vercel.app/)
+📌 [Deploy](https://vai-na-web-fullstack-livraria-vnw.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

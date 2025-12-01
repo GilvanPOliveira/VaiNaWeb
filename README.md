@@ -34,9 +34,13 @@ Este repositório concentra todo o conteúdo estudado no curso do instituto Vai 
 
 📌 Desafio 10 - [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW)
 
-📌 Desafio (Não Oficial) - [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+📌 Desafio 11 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
 
-📌 Desafio 12 - [Desejos](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Desejos)
+📌 Desafios (Não Oficiais): 
+- [Revisão](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Revisao)
+- [Pokedex](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/Pokedex)
+- [Projeto - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api)
+- [Livraria - Api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/livrariaApiVnw)
 
 ### Desafios Extras
 

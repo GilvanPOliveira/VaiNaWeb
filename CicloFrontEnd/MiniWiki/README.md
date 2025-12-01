@@ -1,4 +1,12 @@
-# Desafio 01 - Uma Mini wiki 
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 01 - Uma Mini wiki 
  
 Um breve resumo sobre mim, onde a proposta do desafio era criar um site com informações sobre mim, utilizando apenas HTML, e compartilhar com a turma para nos conhecermos melhor.
 
@@ -34,18 +42,10 @@ Agora que você já sabe como estruturar uma página, vamos nos conhecer um pouc
  <img src="https://i.imgur.com/0gGw96Q.png" height="150" />
 </div>
 
-<!-- ## Projeto da aplicação:
-
-📌 [Figma]() -->
-
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-mini-wiki.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-mini-wiki.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)

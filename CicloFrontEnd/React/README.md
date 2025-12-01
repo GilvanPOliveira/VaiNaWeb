@@ -1,4 +1,12 @@
-# Desafio 05 - Aprendendo React
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 05 - Aprendendo React
 
 Site criado para treinar a introdução ao JavaScript e React, trazendo todo conhecimento até então para essa nova linguagem e framework, utilizando HTML, CSS, JavaScript e React.
 
@@ -28,19 +36,10 @@ Com tudo o que aprendemos crie um projeto em React e Suba para o GitHub.
  <img src="https://i.imgur.com/K2YnoE5.png" height="150" />
 </div>
 
-<!--## Projeto da aplicação:
-
-📌 [Figma]()-->
-
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-frontend-react.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
-
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)

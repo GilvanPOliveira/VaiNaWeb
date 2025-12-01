@@ -1,4 +1,12 @@
-# Desafio 04 - SelfCare
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 04 - SelfCare
 
 Foi proposto a criação de um site de cuidados pessoais, onde haveria venda de produtos naturais, vitaminas, perfumes, utilizando apenas HTML e CSS, aperfeiçoando a responsividade e organização, melhorando a estilização deixando a página mais atraente.
 
@@ -34,12 +42,8 @@ Continue confiando no processo, está no caminho de um grande desenvolvedor Fron
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-self-care.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-selfcare.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)

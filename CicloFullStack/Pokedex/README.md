@@ -1,4 +1,12 @@
-# Desafio 10.3 - Projeto API - Exercício de Fixação
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio - Pokedex
 
 ### Contextualização:
 
@@ -21,18 +29,10 @@ Depois, usem o map() para renderizar os itens dinamicamente no HTML.
  <img src="https://i.imgur.com/fGCcCTx.png" height="150" />
 </div>
 
-## Projeto da aplicação:
-
-📌 [Figma]()
-
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-pokedex.vercel.app/)
+📌 [Deploy](https://vai-na-web-fullstack-pokedex.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

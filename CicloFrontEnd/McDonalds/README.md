@@ -1,4 +1,12 @@
-# Desafio 06 - McDonald's
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 06 - McDonald's
  
 Clone da interface do McDonald's, onde a proposta do desafio era criar um site com a interface do McDonald's, utilizando apenas HTML, CSS, JavaScript e React, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
 
@@ -33,13 +41,8 @@ Juntos somos mais fortes! Vamos colaborar, compartilhar conhecimento e ajudar un
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-mc-donalds.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-mc-donalds.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
-
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)

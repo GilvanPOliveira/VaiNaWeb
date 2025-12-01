@@ -1,4 +1,12 @@
-# Desafio Extra - Login NatalFlix 🎅(2024)
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio Extra - Login NatalFlix 🎅(2024)
 
 Projeto onde a proposta do desafio era criar um login para a NatalFlix, site de streaming de filmes natalinos criado em um outro projeto, utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
 
@@ -15,7 +23,7 @@ Juntos, podemos alcançar grandes conquistas.
 ## Imagens da aplicação:
 
 <div align="left">
- <img src="" height="150" />
+ <img src="./image.png" height="150" />
 </div>
 
 ## Projeto da aplicação:
@@ -24,14 +32,8 @@ Juntos, podemos alcançar grandes conquistas.
 
 ## Execução da aplicação:
 
-📌 [Deploy]()
+📌 [Deploy](https://vai-na-web-natal-natalflix-login.vercel.app/)
 
  <br>
 
-[<- Retornar ao NatalFlix ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
-
-[<- Retornar aos Projetos Natalinos ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
-
- <br>
- 
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)

@@ -1,3 +1,11 @@
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
 # Projeto Natal 🎅
 
 ## 📚 Sobre o Projeto Natal 🎅
@@ -27,4 +35,4 @@ Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
 
   <br>
   
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb)

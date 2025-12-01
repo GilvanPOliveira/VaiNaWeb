@@ -1,4 +1,12 @@
-# Desafio Extra - Projeto Natalino 🎅(2023)
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio Extra - Projeto Natalino 🎅(2023)
  
 Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a doações, utilizando apenas HTML e CSS, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
 
@@ -24,15 +32,11 @@ Juntos, podemos alcançar grandes conquistas.
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-projeto-natal-2023.vercel.app/)
+📌 [Deploy](https://vai-na-web-natal-2023.vercel.app/)
 
  <br>
  
-[<- Retornar aos Projetos Natalinos ](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
-
- <br>
- 
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
 
 
 

@@ -1,6 +1,15 @@
-# Desafio 10.2 - 📚 API de Doação de Livros
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
 
-### Esta é uma API simples feita com Flask e SQLite que permite cadastrar e listar livros doados.
+<br>
+
+# 📌 Desafio - Livraria com API
+
+### Contextualização:
+Um projeto complementar ao projeto de [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW) somado ao [projeto de api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api) onde mostra o funcionamento correto da Livraria utilizando banco de dados e api para seu funcionamento
 
 <hr>
 
@@ -109,12 +118,8 @@ Deletar um Livro.
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-livraria.vercel.app/)
+📌 [Deploy](https://vai-na-web-fullstack-livraria-vnw-a.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo FullStack](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)

@@ -1,4 +1,12 @@
-# Desafio 03 - Ritmo da batida
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 03 - Ritmo da batida
 
 Beat, site de música, onde a proposta do desafio era criar um site com outras páginas integradas, novas estilizações, responsividade e organização do código, utilizando apenas HTML e CSS.
 
@@ -31,12 +39,9 @@ Fala Devssss!!!🚀🚀
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-beat.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-ritmo-da-batida.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
 
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)

@@ -1,3 +1,11 @@
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
 # Portifólios
 
 ## 📚 Sobre os Portifólios
@@ -6,9 +14,9 @@ Diretórito criado para armazenar os portifólios criados durante as aulas com o
 
 ## 🚀 Estrutura do diretório
 
-[Básico](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico) - Idealizado como portifólio inicial com base nas linguagens utilizadas;
+📌 [Básico](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico) - Idealizado como portifólio inicial com base nas linguagens utilizadas;
 
-[Colaborativo](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo) - Feito com o intuito de aprendizado junto aos colegas de sala;
+📌 [Colaborativo](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo) - Feito com o intuito de aprendizado junto aos colegas de sala;
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -21,4 +29,4 @@ Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
 
   <br>
   
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)

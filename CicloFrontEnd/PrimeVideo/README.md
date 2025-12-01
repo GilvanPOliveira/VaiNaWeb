@@ -1,4 +1,12 @@
-# Desafio 02 - Prime Video
+<div align="center">
+ <a href="https://vainaweb.com.br/">
+ <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
+ </a>
+</div>
+
+<br>
+
+# 📌 Desafio 02 - Prime Video
  
 Clone da interface do Prime Video, onde a proposta do desafio era criar um site com a interface do Prime Video, utilizando apenas HTML e CSS, iniciando a utilização da responsividade.
 
@@ -24,12 +32,8 @@ OBSERVAÇÕES:- Resolva uma linha por vez com bastante calma e cuidado. Confie n
 
 ## Execução da aplicação:
 
-📌 [Deploy](https://vai-na-web-prime-video.vercel.app/)
+📌 [Deploy](https://vai-na-web-frontend-prime-video.vercel.app/)
 
  <br>
  
-[<- Retornar ao Ciclo Front-End](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
-
-  <br>
-  
-[<- Retornar ao Repositório Vai na Web](https://github.com/GilvanPOliveira/VaiNaWeb)
+[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
