@@ -1,43 +1,78 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Projeto Natalino 2024
 
-<br>
+Aplicação web com temática natalina desenvolvida para apresentação de curiosidades sobre o Natal.
 
-# 📌 Desafio Extra - Projeto Natalino 🎅(2024)
+##
 
-Projeto de Natal, onde a proposta do desafio era criar um site com a temática natalina, referente a curiosidades de natal, utilizando todo conteúdo aprendido até o momento, com a proposta de treinar tudo que foi estudado, responsividade, organização, estilização e novas técnicas.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como desafio prático com foco na criação de uma interface temática, aplicando conceitos de desenvolvimento frontend.
 
-Oláa devs! 🌟 Como estão??    
+A proposta foi consolidar conhecimentos adquiridos ao longo dos estudos por meio de um projeto completo.
 
-O Natal já passou mas olha o que ele nos deixou! 🎅🎄 
-Esse projeto aqui do Figma é uma ótima ideia para praticarmos o que aprendemos em aula. 🚀 
-Vamos aproveitar essa oportunidade para nos divertir e aprimorar ainda mais nossas habilidades!
-Vamos nos unir e criar incríveis projetos para 2025! 💪🚀 
-Juntos, podemos alcançar grandes conquistas.
+##
 
-## Imagens da aplicação:
+## Objetivo
+
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
+
+* estruturação de páginas com HTML
+* estilização com CSS
+* construção de layouts responsivos
+* organização de código
+* aplicação prática de conceitos visuais
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* página com temática natalina
+* exibição de conteúdos e curiosidades
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="./image.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/yoLyVEpui0ttcMZQxKxlIs/Desafio-Natal?node-id=0-1&p=f&t=y1BIFLo8Wyjitftd-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/yoLyVEpui0ttcMZQxKxlIs/Desafio-Natal?node-id=0-1&p=f&t=y1BIFLo8Wyjitftd-0)
 
-📌 [Deploy](https://vai-na-web-natal-2024.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
+## Execução
 
+* [Deploy](https://vai-na-web-natal-2024.vercel.app/)
 
+##
 
+## Tecnologias Utilizadas
 
+[![My Skills](https://skillicons.dev/icons?i=html,css&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
