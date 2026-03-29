@@ -1,48 +1,87 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# McDonald's
 
-<br>
+Aplicação web desenvolvida como clone da interface do McDonald's.
 
-# 📌 Desafio 06 - McDonald's
- 
-Clone da interface do McDonald's, onde a proposta do desafio era criar um site com a interface do McDonald's, utilizando apenas HTML, CSS, JavaScript e React, aprimorando a responsividade e organização do código, melorando a estilização da página, deixando-a mais atraente, prática e de fácil utilização(intuitiva).
+##
 
-### Contextualização:
+## Sobre
 
-👋 Olá, queridos devs!
+Este projeto foi desenvolvido como desafio prático com foco na reprodução de uma interface real.
 
-ℹ Dicas Importantes:
+A proposta foi aplicar conceitos de desenvolvimento frontend na construção de um layout inspirado no site do McDonald's.
 
-O layout do projeto está disponível no Figma logo abaixo para ajudar.
-Não esqueça de tornar os produtos clicáveis para uma experiência interativa.
-Gerencie bem o seu tempo para que você consiga entregar tudo dentro do prazo combinado.
-Não hesite em interagir com seus colegas e usar o grupo para compartilhar dúvidas e ideias.
+##
 
-⏰ Prazo de Entrega:
-Lembre-se de ficar de olho no prazo de entrega dos exercícios. Estamos aqui para te ajudar, então não hesite em nos contatar se precisar de alguma coisa.
+## Objetivo
 
-🤝 Colaboração e Interatividade:
-Juntos somos mais fortes! Vamos colaborar, compartilhar conhecimento e ajudar uns aos outros. Afinal, é assim que crescemos como uma comunidade.
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-🚀 Estamos prontos para decolar! Mal posso esperar para ver as suas criações. Seja criativo, divirta-se e aproveite ao máximo essa jornada de aprendizado! 🍔🍟🍦
+* estruturação de páginas com HTML
+* estilização com CSS
+* manipulação com JavaScript
+* desenvolvimento de interfaces com React
+* organização e reutilização de componentes
 
-## Imagens da aplicação:
+##
+
+## Funcionalidades
+
+### Interface
+
+* layout inspirado na interface do McDonald's
+* organização visual de produtos e seções
+
+##
+
+### Interação
+
+* elementos interativos para navegação
+* melhoria da experiência do usuário
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/z6CcYz8.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/JRYdr0RqOO7Dvw1xVSzaEh/Untitled?m=auto&fuid=1095694482153874605)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/JRYdr0RqOO7Dvw1xVSzaEh/Untitled?m=auto&fuid=1095694482153874605)
 
-📌 [Deploy](https://vai-na-web-frontend-mc-donalds.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+## Execução
+
+* [Deploy](https://vai-na-web-frontend-mc-donalds.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
