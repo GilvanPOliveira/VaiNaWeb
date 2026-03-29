@@ -1,49 +1,85 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# SelfCare
 
-<br>
+Aplicação web desenvolvida como site de cuidados pessoais e produtos naturais.
 
-# 📌 Desafio 04 - SelfCare
+##
 
-Foi proposto a criação de um site de cuidados pessoais, onde haveria venda de produtos naturais, vitaminas, perfumes, utilizando apenas HTML e CSS, aperfeiçoando a responsividade e organização, melhorando a estilização deixando a página mais atraente.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como desafio final com foco na criação de uma interface completa e responsiva.
 
-Que felicidade!!! Chegamos no último desafio final do modulo 01 parabéns!!!!! 🥳🥳🥳
-Você superou mais uma etapa com sucesso e fico muito feliz em ver sua trajetória dentro do VNW.❤
+A proposta foi aplicar conceitos de HTML e CSS na construção de um site voltado para apresentação de produtos.
 
-Seu desafio está MARAVILHOSO!!! Parabéns! Você trouxe tudo que vimos nas aulas.
-- Segue algumas dicas para ficar 100%:
-  - a) Cuidado com uso excessivo das divs;
-  - b) O hr não e uma tag semântica, não utilizamos, mas ela.
-  - c) A tag picture não é muito semântica porque ela geralmente e utilizada com o  <source>.
-  - d) Também notei que envolveu a tag figcaption em outras, só que não é correto porque ela e apenas para descrição.
-  - e) A div "menu2" e "menu3" seria melhor colocar section.
+##
 
-Continue confiando no processo, está no caminho de um grande desenvolvedor Front-end!!
-- O que esperamos do desafio:
-  - a) HTML Semântico;
-  - b) CSS organizado;
-  - c) Nomes de class com sentido;
-  - d) Responsivo;
+## Objetivo
 
-## Imagens da aplicação:
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
+
+* estruturação de páginas com HTML semântico
+* estilização com CSS
+* organização de código
+* construção de layouts responsivos
+* melhoria de design e usabilidade
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* layout de site voltado para cuidados pessoais
+* apresentação de produtos e conteúdos
+
+##
+
+### Estrutura
+
+* uso de HTML semântico
+* organização de seções e conteúdo
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/e7LtAiH.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/gBNUzUtLnts1Tm29WO2YNk/Desafio-Final-(Copy)?m=auto&fuid=1095694482153874605)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/gBNUzUtLnts1Tm29WO2YNk/Desafio-Final-(Copy)?m=auto&fuid=1095694482153874605)
 
-📌 [Deploy](https://vai-na-web-frontend-selfcare.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+## Execução
+
+* [Deploy](https://vai-na-web-frontend-selfcare.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
