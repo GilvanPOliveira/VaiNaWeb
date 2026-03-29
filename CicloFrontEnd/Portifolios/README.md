@@ -1,32 +1,65 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Portfólios
 
-<br>
+Diretório com projetos de portfólios desenvolvidos durante os estudos.
 
-# Portifólios
+##
 
-## 📚 Sobre os Portifólios
+## Sobre
 
-Diretórito criado para armazenar os portifólios criados durante as aulas com o intuito de estudar mais sobre o conteúdo aprendido.
+Este diretório reúne portfólios desenvolvidos ao longo das aulas com foco na prática dos conteúdos aprendidos.
 
-## 🚀 Estrutura do diretório
+Os projetos representam diferentes abordagens e níveis de complexidade na construção de interfaces pessoais.
 
-📌 [Básico](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico) - Idealizado como portifólio inicial com base nas linguagens utilizadas;
+##
 
-📌 [Colaborativo](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo) - Feito com o intuito de aprendizado junto aos colegas de sala;
+## Objetivo
 
-## 🛠 Tecnologias Utilizadas
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://github.com/GilvanPOliveira)
-## 📬 Contato
+* criação de portfólios pessoais
+* organização de projetos
+* desenvolvimento de interfaces
+* colaboração em equipe
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+##
 
-  <br>
-  
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+## Conteúdos
+
+### Portfólios
+
+* [Básico](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico)
+* [Colaborativo](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Colaborativo)
+
+##
+
+## Estrutura do Diretório
+
+```text
+Portifolios/
+├─ Basico/
+└─ Colaborativo/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Vite  
+* Styled Components  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
