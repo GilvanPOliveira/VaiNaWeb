@@ -1,74 +1,103 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Pokedex
 
-<br>
+Aplicação web desenvolvida com React para consumo de dados da PokeAPI.
 
-# 📌 Desafio - Pokedex (Consumo de API)
+##
 
-### Contextualização:
+## Sobre
 
-Aplicação desenvolvida no **Ciclo FullStack** do programa **Vai na Web**: uma **Pokédex interativa** construída com **React + Vite**, consumindo a **[PokeAPI](https://pokeapi.co/)** para exibir informações detalhadas dos Pokémon.
+Este projeto foi desenvolvido no ciclo FullStack com foco na construção de uma Pokédex interativa.
 
-## 🎯 Objetivo do projeto
+A aplicação consome dados da PokeAPI para exibir informações detalhadas dos Pokémon em uma interface temática inspirada em uma Pokédex.
 
-- Praticar **consumo de APIs REST** em uma aplicação React.
-- Trabalhar com **estado**, **efeitos colaterais** (`useEffect`), **hooks de callback** (`useCallback`) e **refs**.
-- Implementar **busca**, **navegação**, **visualização de dados** e **gráficos** em uma interface temática inspirada em uma Pokédex.
+##
 
-## 🧩 Funcionalidades
+## Objetivo
 
-- 🔎 **Busca por Pokémon**
-  - Busca por **nome** ou **ID**.
-  - Sugestões em tempo real (lista de resultados filtrados).
-  - Debounce para evitar requisições desnecessárias.
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-- 📋 **Listagem geral de Pokémon**
-  - Carrega até **1000 Pokémon** da API.
-  - **Grid paginado** com miniaturas e nome.
-  - Clique em um card para carregar os detalhes na Pokédex principal.
+* consumo de APIs REST
+* gerenciamento de estado em React
+* uso de hooks como `useEffect`, `useCallback` e `useRef`
+* manipulação de dados dinâmicos
+* construção de interfaces interativas e responsivas
 
-- 📊 **Detalhes do Pokémon**
-  - Número (`id`) e nome.
-  - Altura e peso convertidos para unidades mais amigáveis.
-  - Tipos, habilidades e golpes principais.
-  - **Taxa de captura** (%) via endpoint de espécies (`/pokemon-species`).
+##
 
-- 🧬 **Cadeia evolutiva**
-  - Carrossel com as evoluções do Pokémon atual (mostra até 2 por vez).
-  - Destaque visual para o Pokémon selecionado.
-  - Clique em um sprite da evolução para carregar o Pokémon correspondente.
+## Funcionalidades
 
-- 🎮 **Sprites e animações**
-  - Usa sprites **animadas da 5ª geração** quando disponíveis.
-  - Alterna entre **frente** e **costas** do Pokémon.
-  - Efeito de **fade-in** ao trocar de Pokémon.
+### Busca
 
-- 📈 **Visualização de status**
-  - Exibição dos atributos base (HP, ATK, DEF, SpA, SpD, SPD).
-  - Alternância entre:
-    - **Barras verticais** (component `StatusVertical`).
-    - **Gráfico radar** usando **Recharts** (`RadarChart`).
+* busca por nome ou ID
+* sugestões em tempo real
+* debounce para otimização das requisições
 
-- 🎛 **Controles de navegação**
-  - Botões para:
-    - Pokémon anterior / próximo (por ID).
-    - Navegar por Pokémon do **mesmo tipo** (anterior / próximo).
-    - Alternar frente/costas do sprite.
-    - Alternar visualização de **barras** / **gráfico radar**.
-    - Voltar para a **tela inicial**.
+##
 
-- ⌨️ **Atalhos de teclado**
-  - **Seta para cima/baixo** → Pokémon anterior / próximo.
-  - **Seta esquerda/direita** → navegação entre Pokémon do mesmo tipo.
+### Listagem
 
-- 📱 **Layout responsivo**
-  - Ajustes de layout para telas menores via `@media` queries.
-  - Interface pensada para lembrar uma Pokédex física, com tela, LEDs e botões.
+* carregamento de até 1000 Pokémon
+* exibição em grid paginado
+* seleção de Pokémon para visualização detalhada
 
-## Imagens da aplicação:
+##
+
+### Detalhes do Pokémon
+
+* exibição de número e nome
+* visualização de altura e peso
+* exibição de tipos, habilidades e golpes
+* taxa de captura obtida pelo endpoint de espécies
+
+##
+
+### Evolução
+
+* exibição da cadeia evolutiva
+* destaque visual para o Pokémon selecionado
+* navegação entre evoluções por clique
+
+##
+
+### Sprites
+
+* uso de sprites animadas quando disponíveis
+* alternância entre frente e costas
+* efeito visual na troca de Pokémon
+
+##
+
+### Visualização de Status
+
+* exibição dos atributos base
+* alternância entre barras verticais e gráfico radar
+
+##
+
+### Navegação
+
+* botões para Pokémon anterior e próximo
+* navegação entre Pokémon do mesmo tipo
+* alternância de visualizações
+* retorno para tela inicial
+
+##
+
+### Atalhos de Teclado
+
+* seta para cima e para baixo para navegação entre Pokémon
+* seta para esquerda e direita para navegação por tipo
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+* interface inspirada em uma Pokédex física
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/KbDtMW3.png" height="150" />
@@ -76,10 +105,31 @@ Aplicação desenvolvida no **Ciclo FullStack** do programa **Vai na Web**: uma 
  <img src="https://i.imgur.com/fGCcCTx.png" height="150" />
 </div>
 
-## Execução da aplicação:
+##
 
-📌 [Deploy](https://vai-na-web-fullstack-pokedex.vercel.app/)
+## Execução
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
+* [Deploy](https://vai-na-web-fullstack-pokedex.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Vite  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
