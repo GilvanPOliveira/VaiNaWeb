@@ -1,43 +1,76 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Ciclo Frontend
 
-<br>
+Módulo de estudos com projetos desenvolvidos durante o ciclo Frontend.
 
-# Ciclo Front-End
+##
 
-## 📚 Sobre o Ciclo Front-End
+## Sobre
 
-O Ciclo Front-End reúne todos os projetos elaborados durante o curso de Front-End, organizadas por desafios numerados, demonstrando o progresso durante o curso. O objetivo é auxiliar outros desenvolvedores e estudantes a compreenderem minha abordagem na resolução desses desafios, contribuindo para o aprimoramento de suas habilidades e conhecimentos.
+Este diretório reúne os projetos desenvolvidos ao longo do ciclo Frontend, organizados por desafios.
 
-## 🚀 Estrutura do Ciclo Front-End
+A estrutura demonstra a evolução do aprendizado por meio da construção de interfaces e aplicações web.
 
-📌 Desafio 01 - [Mini wiki](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/MiniWiki)
+##
 
-📌 Desafio 02 - [Prime Video](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/PrimeVideo)
+## Objetivo
 
-📌 Desafio 03 - [Ritmo da batida](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/RitmoDaBatida)
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-📌 Desafio 04 - [SelfCare](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/SelfCare)
+* estruturação de páginas web
+* estilização com CSS
+* manipulação com JavaScript
+* desenvolvimento de interfaces com React
+* organização de projetos
 
-📌 Desafio 05 - [Aprendendo React](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/React)
+##
 
-📌 Desafio 06 - [McDonald's](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/McDonalds)
+## Conteúdos
 
-📌 Desafio 07 - [Portifólio](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico)
+### Desafios
 
-## 🛠 Tecnologias Utilizadas
+* [Mini Wiki](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/MiniWiki)
+* [Prime Video](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/PrimeVideo)
+* [Ritmo da Batida](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/RitmoDaBatida)
+* [SelfCare](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/SelfCare)
+* [Aprendendo React](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/React)
+* [McDonald's](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/McDonalds)
+* [Portfólio](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios/Basico)
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://github.com/GilvanPOliveira)
+##
 
-## 📬 Contato
+## Estrutura do Repositório
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+```text
+CicloFrontEnd/
+├─ MiniWiki/
+├─ PrimeVideo/
+├─ RitmoDaBatida/
+├─ SelfCare/
+├─ React/
+├─ McDonalds/
+└─ Portifolios/
+```
 
-  <br>
-  
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb)
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Vite  
+* Styled Components  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb)
