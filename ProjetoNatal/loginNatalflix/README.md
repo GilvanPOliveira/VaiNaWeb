@@ -1,39 +1,86 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Login NatalFlix 2024
 
-<br>
+Aplicação web para autenticação de usuários na plataforma NatalFlix.
 
-# 📌 Desafio Extra - Login NatalFlix 🎅(2024)
+##
 
-Projeto onde a proposta do desafio era criar um login para a NatalFlix, site de streaming de filmes natalinos criado em um outro projeto, utilizando todo conteúdo aprendido, com a proposta de treinar tudo que foi estudado até o momento, responsividade, organização, estilização e novas técnicas.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como complemento ao NatalFlix, com foco na criação de uma interface de login.
 
-Oláa devs! 🌟 Como estão??
+A proposta foi aplicar conceitos de desenvolvimento frontend em uma tela de autenticação, consolidando o aprendizado em um fluxo completo de acesso.
 
-O Natal já passou mas olha o que ele nos deixou! 🎅🎄
-Esse projeto aqui do Figma é uma ótima ideia para praticarmos o que aprendemos em aula. 🚀
-Vamos aproveitar essa oportunidade para nos divertir e aprimorar ainda mais nossas habilidades!
-Vamos nos unir e criar incríveis projetos para 2025! 💪🚀
-Juntos, podemos alcançar grandes conquistas.
+##
 
-## Imagens da aplicação:
+## Objetivo
+
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
+
+* estruturação de páginas com HTML
+* estilização com CSS
+* construção de layouts responsivos
+* organização de código
+* criação de interfaces de autenticação
+
+##
+
+## Funcionalidades
+
+### Interface de Login
+
+* formulário de autenticação de usuário
+* campos para entrada de dados
+
+##
+
+### Layout
+
+* interface alinhada ao tema NatalFlix
+* organização visual focada em usabilidade
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="./image.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](<https://www.figma.com/design/vHTaUvhU4cNdVsXb9VdjDT/FINN---Login-(Copy)?node-id=0-1&p=f&t=apB9u6AzRUwL7r9B-0>)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/vHTaUvhU4cNdVsXb9VdjDT/FINN---Login-(Copy)?node-id=0-1&p=f&t=apB9u6AzRUwL7r9B-0)
 
-📌 [Deploy](https://vai-na-web-natal-natalflix-login.vercel.app/)
+##
 
- <br>
+## Execução
 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
+* [Deploy](https://vai-na-web-natal-natalflix-login.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal)
