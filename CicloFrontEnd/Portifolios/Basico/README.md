@@ -1,45 +1,87 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Portfólio
 
-<br>
+Aplicação web desenvolvida como portfólio pessoal para apresentação de habilidades e projetos.
 
-# 📌 Desafio 07 - Portifólio
+##
 
-Modelo de portifólio pessoal, para divulgar minhas habilidades e projetos criados durante o curso.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como desafio prático com foco na criação de uma página pessoal para apresentação profissional.
 
-Oláaa, Devss!!! 😄🎉
+A proposta foi consolidar conhecimentos em desenvolvimento frontend por meio de uma interface organizada e responsiva.
 
-Parabéns a todos que chegaram até aqui com tanta garra e determinação!!! 🌟
-Vocês estão prontos para alçar voos ainda mais altos e brilhantes!!! ✈🚀
+##
 
-Esta página deve ser um verdadeiro show de talento, incluindo um componente deslumbrante e um link para o seu blog pessoal. É hora de mostrar ao mundo o nosso potencial e o quanto evoluímos! 🌐🔗
+## Objetivo
 
-Seu blog pessoal deve ser simples, mas poderoso, com links para suas redes sociais, projetos incríveis que você já realizou e tecnologias que domina. É momento de compartilhar suas realizações com o mundo! 💪👩‍💻👨‍💻
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-Não se esqueçam de incluir pelo menos um exemplo de uso do react-router-dom. Esta é uma ótima oportunidade para demonstrar suas habilidades de navegação no mundo do React! ⚛🛣
+* desenvolvimento de interfaces com React
+* organização de componentes
+* navegação utilizando react-router
+* estruturação de páginas
+* aplicação de design responsivo
 
-E, é claro, a página precisa ser totalmente responsiva, garantindo uma experiência incrível em qualquer dispositivo. Vamos fazer com que todos possam apreciar seu trabalho, não importa onde estejam! 📱💻
+##
 
-Observação: O Figma abaixo é apenas um exemplo para orientá-los durante o desenvolvimento do desafio. Usem a criatividade e coloquem em prática suas ideias! ❤
+## Funcionalidades
 
-Vocês são incríveis e tenho certeza de que vão arrasar neste desafio! Lembrem-se, cada passo que vocês dão é uma jornada emocionante de aprendizado e crescimento. Boa sorte e divirtam-se criando!!! 🌈👍 
+### Interface
 
-## Imagens da aplicação:
+* apresentação de informações pessoais
+* exibição de projetos e tecnologias
+
+##
+
+### Navegação
+
+* uso de rotas para navegação entre páginas
+* organização de conteúdo em seções
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
+
 <div align="left">
  <img src="https://i.imgur.com/NcQ16l6.png" height="150" />
 </div>
 
-## Projeto da aplicação:
-📌 [Figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
+##
 
-## Execução da aplicação:
-📌 [Deploy](https://vai-na-web-frontend-portifolio.vercel.app/)
+## Projeto
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios)
+* [Figma](https://www.figma.com/design/E0eIc0ePId9HcvXDU7t3pJ/Untitled-(Copy)?node-id=0-1&p=f&t=Nw98EW3dMjDKfOlv-0)
+
+##
+
+## Execução
+
+* [Deploy](https://vai-na-web-frontend-portifolio.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd/Portifolios)
