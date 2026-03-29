@@ -1,51 +1,87 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Livraria com API
 
-<br>
+Aplicação full stack integrando frontend de livraria com API backend.
 
-# 📌 Desafio - Livraria com API
+##
 
-### Contextualização:
-Um projeto complementar ao projeto de [Livraria](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/LivrariaVnW) somado ao [projeto de api](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack/projeto_api) onde mostra o funcionamento correto da Livraria utilizando banco de dados e api para seu funcionamento
+## Sobre
 
-<hr>
+Este projeto integra a aplicação de Livraria com uma API backend, permitindo o armazenamento e gerenciamento de dados em banco.
 
-# ▶️ Como rodar o projeto
+A proposta foi conectar frontend e backend para simular o funcionamento completo de uma aplicação real.
 
-Clone o repositório:
+##
+
+## Objetivo
+
+Consolidar conhecimentos em desenvolvimento full stack, incluindo:
+
+* integração entre frontend e backend
+* criação de APIs com Flask
+* manipulação de dados em banco
+* consumo de endpoints
+* organização de aplicações completas
+
+##
+
+## Funcionalidades
+
+### Gerenciamento de Livros
+
+* cadastro de livros
+* listagem de registros
+* remoção de livros
+
+##
+
+### API
+
+* criação de endpoints REST
+* comunicação via JSON
+* persistência de dados com banco
+
+##
+
+## Execução
+
+### Clonar o projeto
+
 ```bash
 git clone <URL_DO_REPOSITORIO>
 cd nome-do-projeto
 ```
-Crie um ambiente virtual (opcional, mas recomendado):
+
+### Ambiente virtual (opcional)
+
 ```bash
 python -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 
-Instale as dependências:
+### Instalar dependências
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Inicie o servidor:
+### Iniciar servidor
+
 ```bash
 python app.py
 ```
 
-<blockquote> A API estará disponível em http://localhost:5000 </blockquote>
-<hr>
+A aplicação estará disponível em:
+http://localhost:5000
 
-# 🔗 Endpoints
+##
 
-## ➕ POST <code>/doar</code>
+## Endpoints
+
+### POST /doar
+
 Cadastra um novo livro.
 
-**Requisição (JSON):**
-```bash
+```json
 {
   "titulo": "Dom Casmurro",
   "categoria": "Romance",
@@ -53,54 +89,22 @@ Cadastra um novo livro.
   "imagem_url": "https://link-da-imagem.com"
 }
 ```
-**Resposta (201):**
-```bash
-{
-  "mensagem": "Livro cadastrado com sucesso!"
-}
-```
 
-<hr>
+##
 
-## 📚 GET <code>/livros</code>
+### GET /livros
+
 Retorna todos os livros cadastrados.
 
-**Resposta (200):**
-```bash
-[
-  {
-    "id": 1,
-    "titulo": "Dom Casmurro",
-    "categoria": "Romance",
-    "autor": "Machado de Assis",
-    "imagem_url": "https://link-da-imagem.com"
-  }
-]
-```
+##
 
-<hr>
+### DELETE /livros/{id}
 
-## ❌ DELETE <code>/livros/id</code>
-Deletar um Livro.
+Remove um livro pelo identificador.
 
-**Resposta (200):**
-```bash
-{
-    "menssagem": "Livro excluido com sucesso!"
-}
-```
+##
 
-<hr>
-
-# 🧰 Tecnologias utilizadas
-- Python 3
-- Flask
-- SQLite
-- Flask-CORS
-
-<hr>
-
-## Imagens da aplicação:
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/f0TyKPe.png" height="150" />
@@ -112,14 +116,39 @@ Deletar um Livro.
  <img src="https://i.imgur.com/rx7OxYO.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=EndtmH2witkacjOy-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=EndtmH2witkacjOy-0)
 
-📌 [Deploy](https://vai-na-web-fullstack-livraria-vnw-a.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
+## Execução (Frontend)
+
+* [Deploy](https://vai-na-web-fullstack-livraria-vnw-a.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=python,flask,sqlite,html,css,js,react&perline=10)](https://skillicons.dev)
+
+* Python  
+* Flask  
+* SQLite  
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
