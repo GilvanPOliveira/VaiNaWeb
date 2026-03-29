@@ -1,38 +1,69 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Projeto Natal
 
-<br>
+Repositório com projetos desenvolvidos durante o período natalino.
 
-# Projeto Natal 🎅
+##
 
-## 📚 Sobre o Projeto Natal 🎅
+## Sobre
 
-O Projeto Natal reúne todos os projetos elaborados durante o peíodo natalino elaborado durante o curso como atividade extra, para praticar durante o recesso.
+Este diretório reúne projetos elaborados como atividades extras durante o período de recesso.
 
-## 🚀 Estrutura do Projeto Natal 🎅
+Os projetos foram desenvolvidos com foco em prática contínua e aplicação dos conhecimentos adquiridos ao longo do curso.
 
-📌 [Projeto Natalino 🎅(2023)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2023)
+##
 
-📌 [Projeto Natalino 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
+## Objetivo
 
-📌 [NatalFlix 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
+Consolidar conhecimentos em desenvolvimento web por meio de projetos práticos, incluindo:
 
-📌 [Natalflix - Login 🎅(2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/loginNatalflix)
+* desenvolvimento de interfaces
+* organização de aplicações frontend
+* prática com diferentes tecnologias
+* evolução contínua durante o período de estudos
 
+##
 
-## 🛠 Tecnologias Utilizadas
+## Conteúdos
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://github.com/GilvanPOliveira)
+### Projetos
 
-## 📬 Contato
+* [Projeto Natalino (2023)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2023)
+* [Projeto Natalino (2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/2024)
+* [NatalFlix (2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/Natalflix)
+* [Natalflix - Login (2024)](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/ProjetoNatal/loginNatalflix)
 
-Se tiver dúvidas ou sugestões, fique à vontade para entrar em contato:
-- E-mail: gilvanoliveira06@gmail.com
-- Portifólio: [Gilvan Oliveira](https://gilvanpoliveira.github.io/)
+##
 
-  <br>
-  
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb)
+## Estrutura do Repositório
+
+```text
+ProjetoNatal/
+├─ 2023/
+├─ 2024/
+├─ Natalflix/
+└─ loginNatalflix/
+```
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,vite,styledcomponents&perline=9)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Vite  
+* Styled Components  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb)
