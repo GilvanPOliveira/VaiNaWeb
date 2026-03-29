@@ -1,42 +1,88 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Desejos
 
-<br>
+Aplicação web desenvolvida para prática de JavaScript, React e Sass.
 
-# 📌 Desafio 11 - Desejos
+##
 
-Site criado para treinar JavaScript, React e Saas.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como desafio prático com foco na criação de uma interface interativa inspirada em um tema lúdico.
 
-Olá, pessoal! 🧞
+A proposta foi aplicar conceitos de desenvolvimento frontend em uma aplicação dinâmica com interação do usuário.
 
-Neste novo projeto, vamos criar um site inspirado no mundo mágico de Aladin, com o gênio da lâmpada. Onde ao clicar na lâmpada mágica, surgirá o gênio, que concederá 3 desejos ao usuário que a encontrar!🪔
+##
 
-- Instruções do Desafio 📝:
-  - a) Utilize o design disponível no Figma que foi compartilhado em anexo. Siga todos os detalhes e elementos gráficos com atenção!  🧐
-  - b) Desenvolva o site utilizando HTML  e SASS. Lembre-se de aplicar boas práticas de codificação e estruturação do projeto!  ⚒️
-  - c) Implemente o clique na lâmpada para que o gênio apareça e ofereça 3 desejos ao usuário. Pense em animações e efeitos para deixar tudo ainda mais divertido e dinâmico! 🪄
+## Objetivo
 
-Vamos arrasar neste desafio e mostrar todo o nosso talento! Mal posso esperar para ver as criações de cada um de vocês! 🤞
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-## Imagens da aplicação:
+* estruturação de páginas com HTML
+* estilização com CSS e Sass
+* manipulação com JavaScript
+* desenvolvimento de interfaces com React
+* criação de interações e efeitos visuais
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* layout temático inspirado em fantasia
+* organização visual de elementos interativos
+
+##
+
+### Interação
+
+* exibição de elementos a partir de ações do usuário
+* uso de efeitos visuais para feedback
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="./image.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/LBODsPDSyKhBv5lex4Vrsv/Untitled?node-id=1-2&t=X6tEPmggbEMJWmCX-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/LBODsPDSyKhBv5lex4Vrsv/Untitled?node-id=1-2&t=X6tEPmggbEMJWmCX-0)
 
-📌 [Deploy](https://vai-na-web-fullstack-desejos.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
+## Execução
+
+* [Deploy](https://vai-na-web-fullstack-desejos.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Sass  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
