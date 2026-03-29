@@ -1,39 +1,78 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Prime Video
 
-<br>
+Aplicação web desenvolvida como clone da interface do Prime Video.
 
-# 📌 Desafio 02 - Prime Video
- 
-Clone da interface do Prime Video, onde a proposta do desafio era criar um site com a interface do Prime Video, utilizando apenas HTML e CSS, iniciando a utilização da responsividade.
+##
 
-### Contextualização: 
+## Sobre
 
-Olá, desenvolvedores!!!! 🚀🚀 🚀 
+Este projeto foi desenvolvido como desafio prático com foco na reprodução de uma interface inspirada em uma plataforma real.
 
-OBSERVAÇÕES:- Resolva uma linha por vez com bastante calma e cuidado. Confie no processo! 🤓
+A proposta foi aplicar conceitos de estruturação e estilização de páginas web, iniciando também a prática de responsividade.
 
-- Interajam entre si, usem os grupos. Não tenha medo de pedir ajuda! Ajude o colega que ainda não entendeu. Somos uma rede 🧡
-- A página deve ser feita pelo editor de texto online Codesandbox ou VsCode, linkado aqui embaixo.
-- A entrega deve ser feita aqui mesmo, pelo classroom.
+##
 
-## Imagens da aplicação:
+## Objetivo
+
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
+
+* estruturação de páginas com HTML
+* estilização com CSS
+* reprodução de interfaces
+* organização de layout
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* layout inspirado na interface do Prime Video
+* organização visual de conteúdos e seções
+
+##
+
+### Responsividade
+
+* adaptação da interface para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/ji7r7gc.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/kt8bFJfatBgb56Mnf2GnaN/desafio?t=Kc6dWRC6zgjFqBAK-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/kt8bFJfatBgb56Mnf2GnaN/desafio?t=Kc6dWRC6zgjFqBAK-0)
 
-📌 [Deploy](https://vai-na-web-frontend-prime-video.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+## Execução
+
+* [Deploy](https://vai-na-web-frontend-prime-video.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
