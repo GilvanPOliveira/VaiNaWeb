@@ -1,47 +1,85 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Ritmo da Batida
 
-<br>
+Aplicação web desenvolvida como site de música com múltiplas páginas.
 
-# 📌 Desafio 03 - Ritmo da batida
+##
 
-Beat, site de música, onde a proposta do desafio era criar um site com outras páginas integradas, novas estilizações, responsividade e organização do código, utilizando apenas HTML e CSS.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como desafio prático com foco na criação de um site com navegação entre páginas.
 
-Fala Devssss!!!🚀🚀
- 
-- Chegamos ao nosso terceiro desafio técnico!!!!😁 
+A proposta foi aplicar conceitos de estilização, organização e responsividade utilizando HTML e CSS.
 
-- Observações:
-  - a) O posicionamento dos elementos deve ser feito com flexbox!!!
-  - b) Resolva uma linha por vez com bastante calma e cuidado. Confie no processo!!!!🤓
-  - c) Faça a gestão de seu tempo para que você consiga entregar os exercícios no prazo 😉
-  - d) Interajam entre si, usem os grupos. Não tenha medo de pedir ajuda! Ajude o colega que ainda não entendeu. Somos uma rede 🧡
-  - e) A entrega deve ser feita aqui mesmo, pelo classroom.
-  - f) Resolva uma linha por vez com bastante calma e cuidado. Confie no processo! 🤓
-  - g) Interajam entre si, usem os grupos. Não tenha medo de pedir ajuda! Ajude o colega que ainda não entendeu. Somos uma rede 🧡
-  - h) A página deve ser feita pelo editor de texto online Codesandbox ou VsCode, linkado aqui embaixo.
-  - i) A entrega deve ser feita aqui mesmo, pelo classroom.
+##
 
-## Imagens da aplicação:
+## Objetivo
+
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
+
+* estruturação de páginas com HTML
+* estilização com CSS
+* uso de flexbox para layout
+* organização de múltiplas páginas
+* construção de interfaces responsivas
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* layout inspirado em um site de música
+* organização visual de conteúdos e seções
+
+##
+
+### Navegação
+
+* integração entre múltiplas páginas
+* estrutura de navegação entre conteúdos
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="https://i.imgur.com/LSCJ42n.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/LP1pS63LMFzWchIpZwNaqr/Beat?node-id=0-1&p=f&t=kTRJcWH0AZRLpJ4l-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/LP1pS63LMFzWchIpZwNaqr/Beat?node-id=0-1&p=f&t=kTRJcWH0AZRLpJ4l-0)
 
-📌 [Deploy](https://vai-na-web-frontend-ritmo-da-batida.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
+## Execução
 
+* [Deploy](https://vai-na-web-frontend-ritmo-da-batida.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFrontEnd)
