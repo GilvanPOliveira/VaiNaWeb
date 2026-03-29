@@ -1,48 +1,95 @@
-<div align="center">
- <a href="https://vainaweb.com.br/">
- <img src="https://i.imgur.com/Ea78oHo.png" width="30%" />
- </a>
-</div>
+# Revisão
 
-<br>
+Aplicação web desenvolvida para reforço de conceitos em React.
 
-# 📌 Desafio de Revisão - Reforçar Conhecimentos Adquiridos!
+##
 
-Criação de um site para estudos de parâmetros, métodos e funções abordados antes do recesso, para demonstrar prática e o conhecimento adquirido.
+## Sobre
 
-### Contextualização:
+Este projeto foi desenvolvido como atividade de revisão com foco na prática dos conceitos estudados anteriormente.
 
-A prática leva à perfeição!!!💪✨
+A proposta foi aplicar conhecimentos em uma aplicação simples, utilizando dados dinâmicos e componentes.
 
-Aproveitem para colocar em prática tudo o que aprenderam em React. Essa é uma ótima oportunidade para relembrar os conceitos e reforçar os conhecimentos adquiridos! 🚀👩‍💻👨‍💻
+##
 
-Por exemplo: Criem uma página usando um array de objetos com um tema que vocês amam — pode ser filmes, séries, comidas, jogos… qualquer coisa que curtam de verdade!
-Cada item contendo:
-* Um nome ou título;
-* Uma imagem (caprichem nos links, hein? 😏);
-* Uma descrição, preço, ou algo interessante;
-* Um texto alternativo pra imagem;
-Depois, é só usar o map() pra mostrar tudo na tela de forma dinâmica.
-Incrementar Hooks, como useState. 
-Estilizar utilizando Saas.
-(...)
+## Objetivo
 
-Quero ver a criatividade voando alto! 🛫🔥
+Consolidar conhecimentos em desenvolvimento frontend, incluindo:
 
-## Imagens da aplicação:
+* manipulação de dados com arrays
+* renderização dinâmica com map
+* uso de hooks como useState
+* organização de componentes
+* estilização com Sass
+
+##
+
+## Funcionalidades
+
+### Interface
+
+* exibição de lista de itens dinâmicos
+* organização visual baseada em dados
+
+##
+
+### Dados Dinâmicos
+
+* uso de array de objetos
+* renderização de conteúdo com map
+
+##
+
+### Interação
+
+* uso de estado com React
+* atualização dinâmica da interface
+
+##
+
+### Responsividade
+
+* adaptação para diferentes tamanhos de tela
+
+##
+
+## Imagens da Aplicação
 
 <div align="left">
  <img src="./image.png" height="150" />
 </div>
 
-## Projeto da aplicação:
+##
 
-📌 [Figma](https://www.figma.com/design/n6UEdCbVWyPzPwHWsdhHCM/Ano-Novo-2025?node-id=0-1&p=f&t=Fwg05dFCXGEJeX1f-0)
+## Projeto
 
-## Execução da aplicação:
+* [Figma](https://www.figma.com/design/n6UEdCbVWyPzPwHWsdhHCM/Ano-Novo-2025?node-id=0-1&p=f&t=Fwg05dFCXGEJeX1f-0)
 
-📌 [Deploy](https://vai-na-web-fullstack-revisao.vercel.app/)
+##
 
- <br>
- 
-[<- Retornar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
+## Execução
+
+* [Deploy](https://vai-na-web-fullstack-revisao.vercel.app/)
+
+##
+
+## Tecnologias Utilizadas
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,react,sass&perline=10)](https://skillicons.dev)
+
+* HTML  
+* CSS  
+* JavaScript  
+* React  
+* Sass  
+
+##
+
+## Contato
+
+* Portfólio: https://gilvanpoliveira.github.io  
+* Email: [gilvanoliveira06@gmail.com](mailto:gilvanoliveira06@gmail.com)
+
+##
+
+[← Voltar](https://github.com/GilvanPOliveira/VaiNaWeb/tree/main/CicloFullStack)
